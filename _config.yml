@@ -45,4 +45,4 @@ plugins:
 
 repository: eastbackcorporation/archives
 locale: "ja-JP"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "default"
