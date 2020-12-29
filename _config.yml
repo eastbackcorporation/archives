@@ -44,3 +44,5 @@ plugins:
 #   - vendor/ruby/
 
 repository: eastbackcorporation/archives
+locale: "ja-JP"
+minimal_mistakes_skin: "air"
