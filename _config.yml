@@ -20,7 +20,7 @@ title                    : "EastBack Archives"
 title_separator          : "-"
 subtitle                 : "イーストバック アーカイブス"
 name                     : "EastBack Corporation"
-description              : "株式会社イーストバックのドキュメント用ウェブサイト"
+description              : "株式会社イーストバックのドキュメント公開用ウェブサイト"
 url                      : "https://www.eastback.co.jp"
 baseurl                  : "/archives"
 repository               : "eastbackcorporation/archives"
@@ -70,12 +70,12 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "EastBackCorp"
 facebook:
-  username               :
+  username               : "eastback.co.jp"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/logo.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -93,18 +93,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "EastBack"
-  avatar           : "/assets/images/logo.jpg"
-  bio              : ""
-  location         : "Shimane, JAPAN"
-  email            : "info@eastback.jp"
+  name             : 
+  avatar           : 
+  bio              : 
+  location         : 
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:info@eastback.jp"
+      # url: "mailto:info@eastback.jp"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.eastback.co.jp"
+      # url: "https://www.eastback.co.jp"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -123,13 +123,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/EastBackCorp"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/eastback.co.jp"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/eastbackcorporation"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -209,7 +209,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo
 
 
 # Plugins (previously gems:)
@@ -274,8 +274,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
+      author_profile: false
+      read_time: false
+      show_date: false
+      comments: false
       share: true
       related: true
