@@ -17,19 +17,19 @@ ruby:
   - title: "Ruby"
     url: /ruby/
     children:
-      - title: "Rubyとは"
+      - title: "プログラミング言語の概要"
         url: /ruby/about/
 
 dxruby:
   - title: "DXRuby"
     url: /dxruby/
     children:
-      - title: "DXRubyとは"
+      - title: "DXRubyの概要"
         url: /dxruby/about/
 
 rails:
   - title: "Rails"
     url: /rails/
     children:
-      - title: "Railsとは"
+      - title: "Railsの概要"
         url: /rails/about/
