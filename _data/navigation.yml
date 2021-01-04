@@ -1,12 +1,35 @@
-# main links
 main:
+  - title: "Ruby"
+    url: /ruby/
+  - title: "DXRuby"
+    url: /dxruby/
+  - title: "Rails"
+    url: /rails/
   - title: "公式Webサイト"
     url: https://www.eastback.co.jp/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+ruby:
+  - title: "Ruby"
+    url: /ruby/
+    children:
+      - title: "Rubyとは"
+        url: /ruby/about/
+
+dxruby:
+  - title: "DXRuby"
+    url: /dxruby/
+    children:
+      - title: "DXRubyとは"
+        url: /dxruby/about/
+
+rails:
+  - title: "Rails"
+    url: /rails/
+    children:
+      - title: "Railsとは"
+        url: /rails/about/

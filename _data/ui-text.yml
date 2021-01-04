@@ -1131,7 +1131,7 @@ ja: &DEFAULT_JA
   breadcrumb_separator       : "/"
   menu_label                 : "メニュー"
   search_label               :
-  toc_label                  : "目次"
+  toc_label                  : "このページの目次"
   ext_link_label             : "リンク"
   less_than                  :
   minute_read                :

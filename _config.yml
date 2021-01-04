@@ -5,13 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.21.0"
+
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -82,6 +77,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/EastBackCorp"
+    - "https://www.facebook.com/eastback.co.jp"
 
 # Analytics
 analytics:
@@ -93,27 +90,27 @@ analytics:
 
 # Site Author
 author:
-  name             : 
-  avatar           : 
-  bio              : 
-  location         : 
-  email            : 
+  name             : "EastBack Corporation"
+  avatar           : "/assets/images/logo.png"
+  bio              : "IT Company"
+  location         : "Shimane, Japan"
+  email            : "info@eastback.jp"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:info@eastback.jp"
+      url: "mailto:info@eastback.jp"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://www.eastback.co.jp"
+      url: "https://www.eastback.co.jp"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/EastBackCorp"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/eastback.co.jp"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/eastbackcorporation"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -170,8 +167,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -218,6 +213,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -226,6 +222,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 
@@ -266,17 +263,60 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  ruby:
+    output: true
+    permalink: /:collection/:path/
+  dxruby:
+    output: true
+    permalink: /:collection/:path/
+  rails:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
-  # _posts
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  # _ruby
   - scope:
       path: ""
-      type: posts
+      type: ruby
     values:
       layout: single
       author_profile: false
       read_time: false
-      show_date: false
       comments: false
-      share: true
-      related: true
+      share: false
+      sidebar:
+        nav: "ruby"
+  # _dxruby
+  - scope:
+      path: ""
+      type: dxruby
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      sidebar:
+        nav: "dxruby"
+  # _rails
+  - scope:
+      path: ""
+      type: rails
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      sidebar:
+        nav: "rails"
