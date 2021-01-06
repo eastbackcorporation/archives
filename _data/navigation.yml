@@ -18,7 +18,9 @@ ruby:
     url: /ruby/
     children:
       - title: "プログラミング言語の概要"
-        url: /ruby/about/
+        url: /ruby/about-programming-languages/
+      - title: "Rubyの概要"
+        url: /ruby/about-ruby/
 
 dxruby:
   - title: "DXRuby"
