@@ -29,3 +29,22 @@ Rubyには以下のような特徴があります。
 ここで詳しい説明はしませんので、検索などを使用して、調べてみてください。
 
 [^3]: [プログラミング言語の概要](/archives/ruby/about-programming-languages/#プログラミング言語)を参照
+
+## リファレンス
+Ruby公式ウェブサイト  
+[https://www.ruby-lang.org/ja/](https://www.ruby-lang.org/ja/){:target="_blank"}
+
+Rubyリファレンスマニュアル（るびま）  
+[https://docs.ruby-lang.org/ja/](https://docs.ruby-lang.org/ja/){:target="_blank"}  
+※ バージョン毎にページが別れています。
+
+Rubyist Magazine（るびま）  
+[https://magazine.rubyist.net/](https://magazine.rubyist.net/){:target="_blank"}  
+
+ruby-jp Slackワークスペース  
+[https://ruby-jp.github.io/](https://ruby-jp.github.io/){:target="_blank"}  
+※ Rubyに関する情報を得たり、質問したりできます。
+
+Ruby合宿（島根県主催・イーストバック運営）  
+[https://www.rubycamp.jp/](https://www.rubycamp.jp/){:target="_blank"}  
+※ 主に学生向けのチーム開発体験を目的とした合宿

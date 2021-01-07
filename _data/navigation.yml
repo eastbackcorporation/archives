@@ -21,6 +21,8 @@ ruby:
         url: /ruby/about-programming-languages/
       - title: "Rubyの概要"
         url: /ruby/about-ruby/
+      - title: "Rubyの実行環境構築"
+        url: /ruby/create-ruby-environment/
 
 dxruby:
   - title: "DXRuby"
