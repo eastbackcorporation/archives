@@ -23,6 +23,14 @@ ruby:
         url: /ruby/about-ruby/
       - title: "Rubyの実行環境構築"
         url: /ruby/create-ruby-environment/
+      - title: "Rubyの基礎"
+        url: /ruby/ruby-basics/
+      - title: "Rubyの言語仕様1"
+        url: /ruby/ruby-spec1/
+      - title: "簡単なゲームの作成"
+        url: /ruby/create-simple-games/
+      - title: "Rubyの言語仕様2"
+        url: /ruby/ruby-spec2/
 
 dxruby:
   - title: "DXRuby"
