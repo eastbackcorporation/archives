@@ -1,0 +1,16 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.sidebar__right {
+  @include breakpoint($large) {  
+    position: sticky !important;
+    float: right !important;
+    padding-top: 1em !important;
+  }
+}
