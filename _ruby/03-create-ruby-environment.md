@@ -4,13 +4,13 @@ permalink: /ruby/create-ruby-environment/
 toc: true
 ---
 ## Rubyの実行環境
-Rubyを実行するためには、パソコンにRubyをインストールする必要があります。
+Rubyのプログラムを実行するためには、パソコンにRubyをインストールする必要があります。
 
 Windows10には、Rubyをインストールするためのアプリケーションがいくつかありますが、ここでは[RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank"}（無料）というアプリを使用します。他のアプリと同様な手順で、簡単にRubyをインストールすることができます。
 
 Macには、最初からRubyがインストールされています[^1]。
 
-[^1]: Rubyのバージョンが古い場合があるので、複数のバージョンをインストールしたり、切り替えることのできる[rbenv](https://github.com/rbenv/rbenv){:target="_blank"}や[rvm](https://rvm.io/){:target="_blank"}をインストールして利用します。
+[^1]: Rubyのバージョンが古く固定されているので、複数のバージョンをインストールしたり、切り替えることのできる[rbenv](https://github.com/rbenv/rbenv){:target="_blank"}や[rvm](https://rvm.io/){:target="_blank"}をインストールして利用します。
 
 Rubyのプログラムは、テキストファイルでできています。Windowsのメモ帳でもかまいませんが、ソフトウェア開発には不向きです。プログラミングを支援するテキストエディタは有料無料を問わず多く存在します。また、その中でもプログラミングに特化した高機能エディタ（ソフトウェア）をIDE（Integrated Development Environment）と呼びます。
 
@@ -34,7 +34,7 @@ Rubyのプログラムは、テキストファイルでできています。Wind
 
 画面には、**WITH DEVKIT**と**WITHOUT DEVKIT**とあります。通常は、**WITH DEVKIT**の方を使用します[^2]。
 
-[^2]: DEVKITは、Rubyのライブラリを利用する場合に必要となる場合があります。
+[^2]: DEVKITなしでもRubyは動作しますが、ライブラリを利用する場合に必要となる場合がありますので、DEVKITありをインストールした方が無難です。
 
 複数のRubyバージョンと32ビット版（x86）か64ビット版（x64）が選べるようになっています。特に指定がなければ、右矢印（=>）のついたもの（ここでは**=> Ruby+Devkit 2.7.2-1 (x64)** ）を選択します。
 
@@ -184,4 +184,46 @@ VSCodeの画面下側にTerminal（コマンドプロンプト）が表示され
 Terminalに`ruby -v`と入力して、**Enter**キーを押します。Rubyのバージョンが表示されれば、VSCodeでRubyが利用できます。
 
 ### Visual Studio Codeの日本語化
-インストール直後のVSCodeは、英語となっていますので、設定を変更して日本語化します。
+インストール直後のVSCodeは、言語が英語になっていますので、設定を変更して日本語化します。
+
+VSCodeのメニューより、**View** => **Command Palette**をクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/vscode-setting1.png' | relative_url }}" alt="Visual Studio Code">
+</figure>
+
+入力フォームが表示されます。
+
+<figure>
+  <img src="{{ '/assets/images/vscode-setting2.png' | relative_url }}" alt="Visual Studio Code">
+</figure>
+
+入力フォームに、`configure display loanguage`と入力します。入力途中でも、下側に候補が表示されますので、**Configure Display Language**をクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/vscode-setting3.png' | relative_url }}" alt="Visual Studio Code">
+</figure>
+
+入力フォームの下側に表示される**Install additional language**をクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/vscode-setting4.png' | relative_url }}" alt="Visual Studio Code">
+</figure>
+
+左側のサイドバーにインストール可能な言語の一覧が表示されますので、**日本語**の**Install**ボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/vscode-setting5.png' | relative_url }}" alt="Visual Studio Code">
+</figure>
+
+インストールが開始されます。インストールが終了すると、右下側に再起動を促すメッセージが表示されますので、その中の**Restart Now**ボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/vscode-setting6.png' | relative_url }}" alt="Visual Studio Code">
+</figure>
+
+VSCodeが再起動され、メニューなどが日本語になっていることを確認します。
+
+<figure>
+  <img src="{{ '/assets/images/vscode-setting7.png' | relative_url }}" alt="Visual Studio Code">
+</figure>
