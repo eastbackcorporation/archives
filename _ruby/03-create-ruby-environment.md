@@ -181,7 +181,11 @@ VSCodeの画面下側にTerminal（コマンドプロンプト）が表示され
   <img src="{{ '/assets/images/vscode-confirm2.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
-Terminalに`ruby -v`と入力して、**Enter**キーを押します。Rubyのバージョンが表示されれば、VSCodeでRubyが利用できます。
+Terminalに、
+```bash
+ruby -v
+```
+と入力して、**Enter**キーを押します。Rubyのバージョンが表示されれば、VSCodeでRubyが利用できます。
 
 ### Visual Studio Codeの日本語化
 インストール直後のVSCodeは、言語が英語になっていますので、設定を変更して日本語化します。
