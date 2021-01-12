@@ -23,13 +23,13 @@ Rubyのプログラムは、テキストファイルでできています。Wind
 ブラウザで[RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank"}を検索して表示します（リンクをクリックしても表示されます）。
 
 <figure>
-  <img src="{{ '/assets/images/rubyinstaller.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/rubyinstaller.png' | relative_url }}" alt="RubyInstaller for Windows">
 </figure>
 
 **Download**ボタンをクリックして、ダウンロード画面を表示します。
 
 <figure>
-  <img src="{{ '/assets/images/rubyinstaller-download.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/rubyinstaller-download.png' | relative_url }}" alt="RubyInstaller for Windows">
 </figure>
 
 画面には、**WITH DEVKIT**と**WITHOUT DEVKIT**とあります。通常は、**WITH DEVKIT**の方を使用します[^2]。
@@ -44,25 +44,25 @@ Rubyのプログラムは、テキストファイルでできています。Wind
 ダウンロードが終了したら、インストーラーを起動します。
 
 <figure>
-  <img src="{{ '/assets/images/rubyinstaller-install1.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/rubyinstaller-install1.png' | relative_url }}" alt="RubyInstaller for Windows">
 </figure>
 
 **I accept the License**を選択して、**Next**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/rubyinstaller-install2.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/rubyinstaller-install2.png' | relative_url }}" alt="RubyInstaller for Windows">
 </figure>
 
 Rubyは、Cドライブ直下にインストールされます。必要がなければ変更せずに、**Install**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/rubyinstaller-install3.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/rubyinstaller-install3.png' | relative_url }}" alt="RubyInstaller for Windows">
 </figure>
 
 必要がなければ変更せずに、**Next**ボタンをクリックすると、インストールが開始されます。インストールが終了すると、次の画面が表示されます。
 
 <figure>
-  <img src="{{ '/assets/images/rubyinstaller-install4.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/rubyinstaller-install4.png' | relative_url }}" alt="RubyInstaller for Windows">
 </figure>
 
 MSYS2をインストールするか決めることができます。[MSYS2](https://www.msys2.org/){:target="_blank"}は、Windows上でUnix系ツールを利用するためのアプリで、Rubyに提供されているライブラリをWindowsで使用できるようにします。特に問題がなければ、変更せずに**Finish**ボタンをクリックします。
@@ -71,13 +71,13 @@ MSYS2をインストールするか決めることができます。[MSYS2](http
 RubyInstaller for Windowsの画面が消えると、コマンドプロンプトの画面が起動します。
 
 <figure>
-  <img src="{{ '/assets/images/msys2-install1.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/msys2-install1.png' | relative_url }}" alt="RubyInstaller for Windows">
 </figure>
 
 特に変更の必要がなければ、キーボードの**Enter**キーを押すと、インストールが開始されます。
 
 <figure>
-  <img src="{{ '/assets/images/msys2-install2.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/msys2-install2.png' | relative_url }}" alt="RubyInstaller for Windows">
 </figure>
 
 インストールが終了すると、緑色で**succeeded**と表示され、最初に表示されていた内容が再度表示されます（[]内は空欄になっています）。キーボードの**Enter**キーを押すと、コマンドプロンプトが閉じ、インストールが終了します。
@@ -88,13 +88,13 @@ Rubyがインストールできているかを確認します。
 コマンドプロンプトを起動します。起動方法はいくつかありますが、Windows10の左下にある検索窓に**cmd**と入力する方法が簡単です。
 
 <figure>
-  <img src="{{ '/assets/images/ruby-confirm1.png' | relative_url }}" alt="Rubyの動作確認">
+  <img src="{{ '/assets/images/ruby/03/ruby-confirm1.png' | relative_url }}" alt="Rubyの動作確認">
 </figure>
 
 コマンドプロンプトが検索できたら、**開く**をクリックして起動します。
 
 <figure>
-  <img src="{{ '/assets/images/ruby-confirm2.png' | relative_url }}" alt="Rubyの動作確認">
+  <img src="{{ '/assets/images/ruby/03/ruby-confirm2.png' | relative_url }}" alt="Rubyの動作確認">
 </figure>
 
 コマンドプロンプトに`ruby -v`と入力して、**Enter**キーを押します。Rubyのバージョンが表示されれば、Rubyは正常にインストールされています。
@@ -107,13 +107,13 @@ Rubyがインストールできているかを確認します。
 ブラウザで[Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/){:target="_blank"}を検索して表示します（リンクをクリックしても表示されます）。
 
 <figure>
-  <img src="{{ '/assets/images/visual-studio-code.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/visual-studio-code.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 **今すぐダウンロード**ボタンをクリックして、ダウンロード画面を表示します。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-download.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-download.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 **User Installer**の**64 bit**をクリックします（管理者権限があればSystem Installerでも問題ありません）。
@@ -121,49 +121,49 @@ Rubyがインストールできているかを確認します。
 ダウンロードが終了したら、インストーラーを起動します。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-install1.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-install1.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 **同意する**を選択して、**次へ**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-install2.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-install2.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 インストール先に問題がなければ、変更せずに、**次へ**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-install3.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-install3.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 確認ダイアログが表示されますので、**はい**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-install4.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-install4.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 特に必要がなければ、変更せずに、**次へ**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-install5.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-install5.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 特に必要がなければ、変更せずに、**次へ**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-install6.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-install6.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 **インストール**ボタンをクリックすると、インストールが開始されます。インストールが終了すると、次の画面が表示されます。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-install7.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-install7.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 **完了**ボタンをクリックすると、Visual Studio Codeが起動します。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-install8.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-install8.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 ### Visual Studio Codeの動作確認
@@ -172,13 +172,13 @@ Visual Studio Code（以下VSCode）からRubyが実行できるか確認しま�
 VSCodeのメニューより、**Terminal** => **New Terminal**をクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-confirm1.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-confirm1.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 VSCodeの画面下側にTerminal（コマンドプロンプト）が表示されます。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-confirm2.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-confirm2.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 Terminalに、
@@ -193,41 +193,41 @@ ruby -v
 VSCodeのメニューより、**View** => **Command Palette**をクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-setting1.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-setting1.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 入力フォームが表示されます。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-setting2.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-setting2.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 入力フォームに、`configure display loanguage`と入力します。入力途中でも、下側に候補が表示されますので、**Configure Display Language**をクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-setting3.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-setting3.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 入力フォームの下側に表示される**Install additional language**をクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-setting4.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-setting4.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 左側のサイドバーにインストール可能な言語の一覧が表示されますので、**日本語**の**Install**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-setting5.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-setting5.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 インストールが開始されます。インストールが終了すると、右下側に再起動を促すメッセージが表示されますので、その中の**Restart Now**ボタンをクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-setting6.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-setting6.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
 
 VSCodeが再起動され、メニューなどが日本語になっていることを確認します。
 
 <figure>
-  <img src="{{ '/assets/images/vscode-setting7.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-setting7.png' | relative_url }}" alt="Visual Studio Code">
 </figure>
