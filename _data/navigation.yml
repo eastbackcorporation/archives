@@ -31,6 +31,8 @@ ruby:
         url: /ruby/create-simple-games/
       - title: "Rubyの言語仕様2"
         url: /ruby/ruby-spec2/
+      - title: "もっとRubyを学ぶ"
+        url: /ruby/ruby-learning-sites/
 
 dxruby:
   - title: "DXRuby"

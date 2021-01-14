@@ -27,4 +27,6 @@ Windows10のパソコンにRubyをインストールし、テキストベース�
   <dd>簡単なゲームを作成して、プログラミングの基礎を学びます。</dd>
   <dt><a href="/archives/ruby/ruby-spec2/">Rubyの言語仕様2</a></dt>
   <dd>Rubyについて、さらに詳しく学びます。</dd>
+  <dt><a href="/archives/ruby/ruby-learning-sites/">もっとRubyを学ぶ</a></dt>
+  <dd>もっとRubyを学びたい人に、Rubyを学べるウェブサービスを紹介します。</dd>
 </dl>
