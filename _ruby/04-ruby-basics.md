@@ -259,7 +259,7 @@ Rubyは、プログラムファイルの上の行から順番に処理を行い�
 Rubyでは、変数も**式**として扱うことができます。変数の演算は、中の数値に対して行われます。
 {: .notice--info}
 
-x、yの値を書き換えて実行します。
+x、yの値を実数に書き換えて実行します。
 ```ruby
 x = 3.1415
 y = 1.2
@@ -270,7 +270,7 @@ puts "#{x} + #{y} = #{x + y}"
 ```bash
 3.1415 + 1.2 = 4.3415
 ```
-正しい計算結果が表示されます。
+正しい実数の計算結果が表示されます。
 
 <figure>
   <img src="{{ '/assets/images/ruby/04/vscode-calc6.png' | relative_url }}" alt="VSCode calculation.rb">
