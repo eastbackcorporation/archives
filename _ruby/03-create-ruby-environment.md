@@ -7,7 +7,7 @@ toc: true
 期間限定（2021/1/15〜2021/2/28）で、DXRubyが使用できるRubyの実行環境(Windows版)をzipで提供します。
 {: .notice--warning}
 
-[<i class="fas fa-download"></i> Ruby実行環境のダウンロード](http://download.eastback.co.jp/minamiko/ruby_lecture.zip){: .btn .btn--success}
+[<i class="fas fa-download"></i> Ruby実行環境のダウンロード](https://download.eastback.co.jp/minamiko/ruby_lecture.zip){: .btn .btn--success}
 
 上記ボタンをクリックするとダウンロードが始まります。
 ダウンロードした**ruby_lecture.zip**を、Cドライブ直下に展開してください。エクスプローラーで`C:¥ruby_lecture¥code.bat`をダブルクリックすると、Visual Studio Codeが起動します。
