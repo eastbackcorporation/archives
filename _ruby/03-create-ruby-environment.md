@@ -4,7 +4,7 @@ permalink: /ruby/create-ruby-environment/
 toc: true
 ---
 
-期間限定（2021/1/15〜2021/2/28）で、DXRubyが使用できるRubyの実行環境(Windows)をzipで提供します。
+期間限定（2021/1/15〜2021/2/28）で、DXRubyが使用できるRubyの実行環境(Windows版)をzipで提供します。
 {: .notice--warning}
 
 [<i class="fas fa-download"></i> Ruby実行環境のダウンロード](http://download.eastback.co.jp/minamiko/ruby_lecture.zip){: .btn .btn--success}
