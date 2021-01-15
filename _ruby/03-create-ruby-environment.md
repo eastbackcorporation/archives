@@ -13,7 +13,7 @@ toc: true
 ダウンロードした**ruby_lecture.zip**を、Cドライブ直下に展開してください。エクスプローラーで`C:¥ruby_lecture¥code.bat`をダブルクリックすると、Visual Studio Codeが起動します。
 
 - Ruby: RubyInstaller for Windows Ruby+Devkit 2.6.6-2 (x86) （DXRuby 1.4.6 インストール済み）
-- IDE: Visual Studio Code 1.52.1 （User Installer 64bit）
+- IDE: Visual Studio Code 1.52.1 （.zip 64bit）
 - 作業フォルダ: **C:¥ruby_lecture¥code**
 
 ## Rubyの実行環境
