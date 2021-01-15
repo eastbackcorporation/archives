@@ -3,6 +3,19 @@ title: "Rubyの実行環境構築"
 permalink: /ruby/create-ruby-environment/
 toc: true
 ---
+
+期間限定（2021/1/15〜2021/2/28）で、DXRubyが使用できるRubyの実行環境(Windows)をzipで提供します。
+{: .notice--warning}
+
+[<i class="fas fa-download"></i> Ruby実行環境のダウンロード](http://download.eastback.co.jp/minamiko/ruby_lecture.zip){: .btn .btn--success}
+
+上記ボタンをクリックするとダウンロードが始まります。
+ダウンロードした**ruby_lecture.zip**を、Cドライブ直下に展開してください。エクスプローラーで`C:¥ruby_lecture¥code.bat`をダブルクリックすると、Visual Studio Codeが起動します。
+
+- Ruby: RubyInstaller for Windows Ruby+Devkit 2.6.6-2 (x86) （DXRuby 1.4.6 インストール済み）
+- IDE: Visual Studio Code 1.52.1 （User Installer 64bit）
+- 作業フォルダ: **C:¥ruby_lecture¥code**
+
 ## Rubyの実行環境
 Rubyのプログラムを実行するためには、パソコンにRubyをインストールする必要があります。
 
