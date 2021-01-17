@@ -1,6 +1,6 @@
 ---
 title: "DXRubyとは"
-permalink: /dxruby/about/
+permalink: /dxruby/about-dxruby/
 toc: true
 ---
 

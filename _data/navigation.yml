@@ -39,7 +39,9 @@ dxruby:
     url: /dxruby/
     children:
       - title: "DXRubyの概要"
-        url: /dxruby/about/
+        url: /dxruby/about-dxruby/
+      - title: "DXRubyの実行環境構築"
+        url: /dxruby/create-dxruby-environment/
 
 rails:
   - title: "Rails"
