@@ -17,6 +17,3 @@ permalink: /
   <dt><a href="/archives/rails/">Rails</a></dt>
   <dd>Ruby on Railsのscaffoldを使って、簡単なウェブアプリを作成する手順を説明します。</dd>
 </dl>
-
-今後、コンテンツを増やしていきます。
-{: .notice--info}
