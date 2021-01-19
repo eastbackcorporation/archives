@@ -12,6 +12,9 @@ permalink: /ruby-download/
 - Ruby: RubyInstaller for Windows Ruby+Devkit 2.7.2-1 (x64) （DXRuby 1.4.7 インストール済み、DirectX DLLを含む）
 - IDE: Visual Studio Code 1.52.1 （.zip 64bit版）
 
+[2020/01/19] DXRubyでwavファイルの再生時エラーが発生します(64bit版のみ)。
+{: .notice--warning} 
+
 ## 利用方法
 ダウンロードした**ruby_lecture.zip**を、Cドライブ直下に展開してください。
 

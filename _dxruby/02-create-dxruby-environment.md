@@ -28,4 +28,7 @@ DirectXをインストールするか、DirectXのDLLファイルを、rubyの�
 [Ruby(32bit版)用DLL](https://download.eastback.co.jp/directx/x86/d3dx9_40.dll){:target="_blank"}
 {: .notice--warning}
 
+[2020/01/19] DXRubyでwavファイルの再生時エラーが発生します(64bit版のみ)。
+{: .notice--warning} 
+
 [^1]: [Windows10では、DXRubyを動かすのに d3dx9_40.dllが必要](https://github.com/mirichi/dxruby/issues/3){:target="_blank"}
