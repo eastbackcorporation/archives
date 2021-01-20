@@ -16,8 +16,8 @@ sidebar:
   <dd>DXRubyについて説明します。</dd>
   <dt><a href="/archives/dxruby/create-dxruby-environment/">DXRubyの実行環境構築</a></dt>
   <dd>Windows10のRuby環境にDXRubyライブラリをインストールします。</dd>
-  <dt>サンプルの実行</dt>
-  <dd>サンプルコードを実行して、DXRubyで何ができるかを確認します。</dd>
+  <dt><a href="/archives/dxruby/dxruby-samples/">サンプルの実行</a></dt>
+  <dd>サンプルプログラムを実行して、DXRubyで何ができるかを確認します。</dd>
   <dt>ウィンドウの表示</dt>
   <dd>DXRubyの基本とウィンドウの表示を説明します。</dd>
 </dl>

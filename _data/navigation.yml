@@ -42,7 +42,8 @@ dxruby:
         url: /dxruby/about-dxruby/
       - title: "DXRubyの実行環境構築"
         url: /dxruby/create-dxruby-environment/
-
+      - title: "サンプルの実行"
+        url: /dxruby/dxruby-samples/
 rails:
   - title: "Rails"
     url: /rails/
