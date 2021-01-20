@@ -11,7 +11,7 @@ DXRubyライブラリを実行するには、WindowsパソコンにRubyをイン
 
 [Rubyの実行環境構築](/archives/ruby/create-ruby-environment/){:target="_blank"}を参考に、Rubyをインストールしてください。
 
-[2020/01/19] RubyInstaller **64bit版**では、DXRubyでwavファイルを再生するとエラーが発生します[^1]。そのため、**32bit版**をインストールしてください。
+[2020/01/19] **RubyInstaller 64bit版**では、DXRubyでwavファイルを再生するとエラーが発生します[^1]。そのため、**RubyInstaller 32bit版**をインストールしてください。
 {: .notice--warning} 
 
 [^1]: [[DXRuby 1.4.7] 64bitでは、Sound.newでエラー](https://github.com/mirichi/dxruby/issues/4){:target="_blank"}
