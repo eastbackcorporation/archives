@@ -72,6 +72,9 @@ cd sample¥new_sample
 Windowsでは、**¥**と**\\（バックスラッシュ）**は同じ記号です。**¥キー**を押して入力します。
 {: .notice--info} 
 
+**cd**コマンドで、一つ上のフォルダに移動するには、`cd ..`のように、ドット2つを入力します。
+{: .notice--info} 
+
 <figure>
   <img src="{{ '/assets/images/dxruby/03/cd-command.png' | relative_url }}" alt="cd command">
 </figure>

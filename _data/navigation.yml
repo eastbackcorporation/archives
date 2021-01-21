@@ -44,6 +44,9 @@ dxruby:
         url: /dxruby/create-dxruby-environment/
       - title: "サンプルの実行"
         url: /dxruby/dxruby-samples/
+      - title: "簡単なゲームの作成"
+        url: /dxruby/create-simple-game/
+
 rails:
   - title: "Rails"
     url: /rails/

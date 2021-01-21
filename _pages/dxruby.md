@@ -18,6 +18,6 @@ sidebar:
   <dd>Windows10のRuby環境にDXRubyライブラリをインストールします。</dd>
   <dt><a href="/archives/dxruby/dxruby-samples/">サンプルの実行</a></dt>
   <dd>サンプルプログラムを実行して、DXRubyで何ができるかを確認します。</dd>
-  <dt>ウィンドウの表示</dt>
-  <dd>DXRubyの基本とウィンドウの表示を説明します。</dd>
+  <dt><a href="/archives/dxruby/create-simple-game/">簡単なゲームの作成</a></dt>
+  <dd>DXRubyの基本を知るために、簡単なゲームを作成します。</dd>
 </dl>
