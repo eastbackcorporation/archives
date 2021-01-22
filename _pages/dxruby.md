@@ -19,5 +19,7 @@ sidebar:
   <dt><a href="/archives/dxruby/dxruby-samples/">サンプルの実行</a></dt>
   <dd>サンプルプログラムを実行して、DXRubyで何ができるかを確認します。</dd>
   <dt><a href="/archives/dxruby/create-simple-game/">簡単なゲームの作成</a></dt>
-  <dd>DXRubyの基本を知るために、簡単なゲームを作成します。</dd>
+  <dd>DXRubyとRubyの基本を知るために、簡単なゲームを作成します。</dd>
+  <dt><a href="/archives/dxruby/create-falling-objects-game/">落ち物ゲームの作成</a></dt>
+  <dd>落ち物ゲームの作成を通して、DXRubyとRubyをより深く理解します。</dd>
 </dl>

@@ -46,6 +46,8 @@ dxruby:
         url: /dxruby/dxruby-samples/
       - title: "簡単なゲームの作成"
         url: /dxruby/create-simple-game/
+      - title: "落ち物ゲームの作成"
+        url: /dxruby/create-falling-objects-game/
 
 rails:
   - title: "Rails"
