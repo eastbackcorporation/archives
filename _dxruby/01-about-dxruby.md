@@ -21,7 +21,7 @@ APIリファレンス
 [http://mirichi.github.io/dxruby-doc/api/index.html](http://mirichi.github.io/dxruby-doc/api/index.html){:target="_blank"}
 
 [2021/01/20] 上記APIリファレンスでは、Inputモジュールのメソッド詳細が表示されません。修正されるまで、[こちら](https://download.eastback.co.jp/dxruby/api/index.html){:target="_blank"}を参照してください。
-{: .notice--warning} 
+{: .notice--warning}
 
 GitHubリポジトリ  
 [mirichi/dxruby](https://github.com/mirichi/dxruby){:target="_blank"}

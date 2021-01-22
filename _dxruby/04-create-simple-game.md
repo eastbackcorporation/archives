@@ -6,6 +6,9 @@ toc: true
 ## simple-gameの作成
 簡単なゲーム作成を通して、DXRubyのプログラミングに慣れていきます。
 
+新しく出てきた内容（クラスやメソッドなどの仕様）は、[Rubyのリファレンスマニュアル](https://docs.ruby-lang.org/ja/2.7.0/doc/index.html){:target="_blank"}  や、[DXRubyのAPIリファレンス](http://mirichi.github.io/dxruby-doc/api/index.html){:target="_blank"}を見て確認しながら進めると、理解が深まります。
+{: .notice--info} 
+
 ### ゲーム用フォルダの作成
 最初に、プログラムファイルを置くフォルダを作成します。どこのフォルダでプログラムを作成してもよいですが、
 ここでは複数のファイルを扱うため、専用のフォルダを作った方が管理しやすいためです。
@@ -100,6 +103,9 @@ ruby main.rb
 
 `Window.loop do〜end`は、繰り返し処理（ループ）です。DXRubyライブラリの中で定義してあり、ウィンドウを作成して、表示する仕様になっています。
 また、このループは、**1秒間に60回**繰り返されます。
+
+ウィンドウのサイズは、デフォルトで**640ピクセルx480ピクセル**です。
+{: .notice--info} 
 
 ### 文字の描画
 画面に文字を表示してみます。
@@ -293,6 +299,9 @@ class 新しいクラス名 < 既存クラス名
 end 
 ```
 
+上記の、**既存クラス**を**スーパークラス（親クラス）**、**新しいクラス**を**サブクラス（子クラス）**と言います。
+{: .notice--info}
+
 **新しいクラス**では、**既存クラス**のメソッドを使うことができます。また、**新しいクラス**定義内で、独自のメソッドを定義することができます。さらに、**既存クラス**のメソッドと同じ名前のメソッド定義を書くと、**既存クラス**のメソッドを上書き（オーバーライド）することもできます。
 
 それでは、**Sprite**クラスを継承した、プレイヤー用のクラス**Player**を作ります。
@@ -328,9 +337,8 @@ Playerクラスの定義で、プレイヤーの位置を更新するための**
 
 次に、衝突判定の機能を追加します。
 
-**Sprite**クラスには、衝突判定用のメソッド**Sprite.check**が定義されています。このメソッドは、衝突しているか判定し、もし衝突していたら、**hit**メソッド、**shot**メソッドを呼びます。
-
-**main.rb**を、以下のように書き換えてください。
+**Sprite**クラスには、衝突判定用のメソッド**Sprite.check**が定義されています。
+このメソッドは、衝突しているか判定し、もし衝突していたら、**hit**メソッド、**shot**メソッドを呼びます。
 
 ```ruby
 require 'dxruby'
@@ -380,7 +388,7 @@ end
 
 - **Player**クラスと同様に**Sprite**クラスを継承した**Enemy**クラスを定義しています。
 - **Enemy**クラスの**hit**メソッドは、衝突した時に呼ばれるメソッドです。
-- **vanish**メソッドは、インスタンスを削除します。この場合、自分自身（敵）を削除します。
+- **vanish**メソッドは、**Sprite**のインスタンスを消します（描画できなくします）。この場合、自分自身（敵）を消します。
 - ループの中では、敵の描画と衝突判定のコードを追加しています。
 
 ### ファイル分割
@@ -400,6 +408,7 @@ class Player < Sprite
   end
 end
 ```
+
 **enemy.rb**
 ```ruby
 class Enemy < Sprite
@@ -440,6 +449,187 @@ end
   <img src="{{ '/assets/images/dxruby/04/split-files.png' | relative_url }}" alt="Split Files">
 </figure>
 
-**require_relative**構文を使って、ファイルを読み込みます（拡張子**.rb**は不要です）。
+**main.rb**には、他のプログラムファイルを**require_relative**構文を使って読み込みます（拡張子**.rb**は不要です）。
 
-実行は、これまでと同じ`ruby main.rb`です。
+プログラムの実行は、これまでと同じ`ruby main.rb`です。
+
+キーボードの矢印キーを押してみてください。前のプログラムと同じ動きをします。
+
+
+### 配列を使う
+敵が1体ではおもしろくないので、増やしてみます。
+
+**main.rb**を、以下のように書き換えてください。
+
+**main.rb**
+```ruby
+require 'dxruby'
+
+require_relative 'player'
+require_relative 'enemy'
+
+player_img = Image.load("image/player.png")
+enemy_img = Image.load("image/enemy.png")
+
+player = Player.new(100, 100, player_img) # 簡潔にする
+enemies = [] # 書き換え、以下追加
+10.times do
+  enemies << Enemy.new(rand(0..(640 - 32 - 1)), rand((480 - 32 - 1)), enemy_img)
+end
+
+Window.loop do
+  player.update
+  player.draw
+
+  Sprite.draw(enemies)
+
+  Sprite.check(player, enemies) # 書き換え
+end
+```
+
+プログラムを実行します。
+
+敵（悪）が10体表示されます。同様にキーボードの矢印キーを押してプレイヤーを移動させて、すべての敵に体当たりしてみてください。
+
+<figure>
+  <img src="{{ '/assets/images/dxruby/04/split-files2.png' | relative_url }}" alt="Split Files">
+</figure>
+
+プログラムの説明をします。
+
+- **enemies**変数に空の配列を作って、**Emeny**クラスのインスタンスを挿入しています。
+- **整数.times do〜end**の**times**は、整数クラス（Integer）に定義されているメソッドで、整数回ループを回します。
+- **Enemy**クラスのインスタンス生成時、敵画像がウィンドウをはみ出さないxとyを**rand**メソッドを使ってランダムに設定しています。
+- **Sprite.check**メソッドは、引数に配列を渡すことができます。
+
+### インスタンス変数
+体当たりした敵の数を表示するようにします。
+
+**player.rb**と**main.rb**を、以下のように書き換えてください。
+
+**player.rb**
+```ruby
+class Player < Sprite
+  attr_accessor score: # 追加
+
+  def initialize(x, y, image) # 追加
+    @score = 0
+  end
+
+  def update
+    self.x += Input.x
+    self.y += Input.y
+  end
+
+  def shot # 追加
+    @score += 1
+  end
+end
+```
+
+**main.rb**
+```ruby
+require 'dxruby'
+
+require_relative 'player'
+require_relative 'enemy'
+
+font = Font.new(32) # 追加
+player_img = Image.load("image/player.png")
+enemy_img = Image.load("image/enemy.png")
+
+player = Player.new(100, 100, player_img)
+enemies = []
+10.times do
+  enemies << Enemy.new(rand(0..(640 - 32 - 1)), rand((480 - 32 - 1)), enemy_img)
+end
+
+Window.loop do
+  player.update
+  player.draw
+
+  Sprite.draw(enemies)
+  Window.draw_font(10, 10, "スコア：#{player.score}", font) # 追加
+
+  Sprite.check(player, enemies)
+end
+```
+
+プログラムを実行します。
+
+スコアが表示されます。キーボードの矢印キーを押してプレイヤーを移動させて、敵に体当たりすると、スコアが加算されます。
+
+<figure>
+  <img src="{{ '/assets/images/dxruby/04/array.png' | relative_url }}" alt="Split Files">
+</figure>
+
+プログラムの説明をします。
+
+- **Player**クラスに、スコアを格納する**@score**変数を追加しました。
+- **Player**クラスに、**shot**メソッドを追加しました。衝突判定で、衝突した時にスコアをカウントアップします。
+- **main.rb**のループの中に、スコアを表示する機能を追加しました。
+
+衝突判定で、衝突した時に**shot**メソットと**hit**が呼ばれます。
+**Sprite**クラスの**check**メソッドで、第1引数の方には、**shot**メソッド、第2引数の方には、**hit**メソッドが呼ばれる仕様です。
+{: .notice--info} 
+
+### 整数の演算
+ゲーム性を持たせるために、残り時間を表示し、ゼロになったらプレイヤーの動きを止めます。
+
+**main.rb**を、以下のように書き換えてください。
+
+**main.rb**
+```ruby
+require 'dxruby'
+
+require_relative 'player'
+require_relative 'enemy'
+
+font = Font.new(32)
+player_img = Image.load("image/player.png")
+enemy_img = Image.load("image/enemy.png")
+
+player = Player.new(100, 100, player_img)
+enemies = []
+10.times do
+  enemies << Enemy.new(rand(0..(640 - 32 - 1)), rand((480 - 32 - 1)), enemy_img)
+end
+
+timer = 600 + 60 # 追加
+
+Window.loop do
+  if timer >= 60 # 追加
+    timer -= 1 # 追加
+    player.update
+  end
+
+  player.draw
+
+  Sprite.draw(enemies)
+  Window.draw_font(10, 0, "スコア：#{player.score}", font)
+  Window.draw_font(10, 32, "残り時間：#{timer / 60}秒", font) # 追加
+
+  Sprite.check(player, enemies)
+end
+```
+
+プログラムを実行します。
+
+残り時間がカウントダウンしていき、ゼロになったらプレイヤーが動かなくなります。
+
+<figure>
+  <img src="{{ '/assets/images/dxruby/04/integer.png' | relative_url }}" alt="Split Files">
+</figure>
+
+プログラムの説明をします。
+
+**Window.loop**は、1秒間に60回ループします。この特性を利用して、残り時間を算出します。
+
+Rubyでは、**整数どうしの計算結果は整数**というルールがあります。ちなみに、**実数どうしの計算、実数と整数の計算は実数**になります。
+つまり、`600 / 60`の結果は`10`ですが、`599 / 60`の結果は`9.98333`ではなく、切り捨てられて`9`となります。
+ここでは、そのRubyの仕様を利用して、残り時間を秒で表示しています。
+
+### カスタマイズ
+単純ですが、ゲームらしくなってきました。
+
+もっと楽しめるゲームにするには、どんな機能があったらよいでしょうか。考えてみてください。
