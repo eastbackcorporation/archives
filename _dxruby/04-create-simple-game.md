@@ -514,6 +514,7 @@ class Player < Sprite
 
   def initialize(x, y, image) # 追加
     @score = 0
+    super
   end
 
   def update
