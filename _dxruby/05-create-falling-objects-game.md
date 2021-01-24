@@ -153,6 +153,41 @@ end
 プログラムの説明をします。
 
 - **main.rb**では、プレイヤーのインスタンスを生成（**new**）し、ループ内で、位置の更新（**update**）と描画（**draw**）をしています。
-- **player.rb**では、**initialize**メソッド内で、画像や初期位置を設定し、**super**構文を使って、スーパークラス（ここでは**Sprite**クラス）のメソッド（ここでは**initialize**メソッド）を呼んでいます。
+- **player.rb**では、**initialize**メソッド内で、画像や初期位置を設定し、**super**文を使って、スーパークラス（ここでは**Sprite**クラス）のメソッド（ここでは**initialize**メソッド）を呼んでいます。
 - プレイヤーの初期位置は、**width**メソッドや、**height**メソッドを使い、画像のサイズを取得して、描画位置を決めています。つまり、画像が変更になっても、ちょうど良い位置に描画されるように考慮してあります。
+
+### プレイヤーの制限
+矢印キーで動かしていて気がついたかもしれませんが、ウィンドウの端で消えてしまいます。それ以上移動できないように制限をします。
+
+**player.rb**ファイルを、以下のように書き換えます。
+
+**player.rb**
+```ruby
+class Player < Sprite
+  def initialize()
+    image = Image.load("images/noschar1.png")
+    x = (640 - image.width) / 2
+    y = 400 - image.height
+    super(x, y, image)
+  end
+
+  def update # 修正
+    dx = Input.x
+    if (dx == -1 && self.x > 0) || (dx == 1 && self.x < (640 - image.width)) 
+      self.x += dx
+    end
+  end
+end
+```
+
+プログラムを実行します。左右の矢印キーで、プレイヤーが端で止まるか確認してください。
+
+<figure>
+  <img src="{{ '/assets/images/dxruby/05/player2.png' | relative_url }}" alt="Player">
+</figure>
+
+プログラムの説明をします。
+
+- **Input.x**は、矢印右キーが押されると**1**を返し、矢印左キーが押されると**-1**を返し、それ以外は**0**を返します。ここでは、一旦**dx**変数に値を格納し、**if**文を使って、条件が合った（真）場合のみ、**sefl.x**の値に反省させるようにしています。
+- **if**文の条件式には、[論理演算子](){:target="_blank"}を用いています。右端の場合は、プレイヤー画像の幅も考慮しています。
 
