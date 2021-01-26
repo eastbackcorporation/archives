@@ -11,9 +11,9 @@ permalink: /
 
 <dl>
   <dt><a href="/archives/ruby/">Ruby</a></dt>
-  <dd>Rubyの概要、簡単なゲームを作成して、プログラミングの基礎を学びます。</dd>
+  <dd>Rubyの概要、テキストベースのゲームを作成して、プログラミングの基礎を学びます。</dd>
   <dt><a href="/archives/dxruby/">DXRuby</a></dt>
-  <dd>DXRubyライブラリを使ったゲームを作成することで、オブジェクト指向プログラミングを学びます。</dd>
+  <dd>DXRubyライブラリを使った簡単なゲームを作成して、オブジェクト指向プログラミングを学びます。</dd>
   <dt><a href="/archives/rails/">Rails</a></dt>
-  <dd>Ruby on Railsのscaffoldを使って、簡単なウェブアプリを作成する手順を説明します。</dd>
+  <dd>Ruby on Railsのscaffoldを使い、簡単なウェブアプリを作成します。</dd>
 </dl>

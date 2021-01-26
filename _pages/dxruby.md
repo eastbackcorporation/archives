@@ -5,9 +5,9 @@ sidebar:
   nav: "dxruby"
 ---
 ## 概要
-ゲームなどで利用されるRubyのライブラリ「DXRuby」について説明します。  
+Windows用ゲームなどで利用される、Rubyのライブラリ**DXRuby**について説明します。  
 
-「落ち物ゲーム」を少しずつ作成しながら、DXRubyを使ったゲーム作成を学びます。
+簡単なゲームを作成しながら、DXRubyの使い方やRubyのオブジェクト指向プログラミングを学びます。
 
 ## 内容
 
@@ -21,5 +21,5 @@ sidebar:
   <dt><a href="/archives/dxruby/create-simple-game/">簡単なゲームの作成</a></dt>
   <dd>DXRubyとRubyの基本を知るために、簡単なゲームを作成します。</dd>
   <dt><a href="/archives/dxruby/create-falling-objects-game/">落ち物ゲームの作成</a></dt>
-  <dd>落ち物ゲームの作成を通して、DXRubyとRubyをより深く理解します。</dd>
+  <dd>DXRubyとRubyをより深く理解するために、落ち物ゲームを作成します。</dd>
 </dl>
