@@ -11,7 +11,7 @@ Visual Studio Code（以下VSCode）でRubyが実行できるか確認します�
 どのフォルダでもRubyを実行できますが、ここでは、**C:¥ruby_lecture¥code**フォルダを作成して、作業フォルダとします。
 
 <figure>
-  <img src="{{ '/assets/images/ruby/04/working-folder.png' | relative_url }}" alt="Working Folder">
+  <img src="{{ '/assets/images/ruby/04/working-folder.png' | relative_url }}" alt="Working Folder" class="img_border">
 </figure>
 
 ### Rubyの実行環境

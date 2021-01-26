@@ -26,13 +26,13 @@ Rubyのプログラムは、テキストファイルでできています。Wind
 ブラウザで[RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank"}を検索して表示します（リンクをクリックしても表示されます）。
 
 <figure>
-  <img src="{{ '/assets/images/ruby/03/rubyinstaller.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/rubyinstaller.png' | relative_url }}" alt="RubyInstaller for Windows" class="img_border">
 </figure>
 
 **Download**ボタンをクリックして、ダウンロード画面を表示します。
 
 <figure>
-  <img src="{{ '/assets/images/ruby/03/rubyinstaller-download.png' | relative_url }}" alt="RubyInstaller for Windows">
+  <img src="{{ '/assets/images/ruby/03/rubyinstaller-download.png' | relative_url }}" alt="RubyInstaller for Windows" class="img_border">
 </figure>
 
 画面には、**WITH DEVKIT**と**WITHOUT DEVKIT**とあります。通常は、**WITH DEVKIT**の方を使用します[^2]。
@@ -110,13 +110,13 @@ Rubyがインストールできているかを確認します。
 ブラウザで[Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/){:target="_blank"}を検索して表示します（リンクをクリックしても表示されます）。
 
 <figure>
-  <img src="{{ '/assets/images/ruby/03/visual-studio-code.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/visual-studio-code.png' | relative_url }}" alt="Visual Studio Code" class="img_border">
 </figure>
 
 **今すぐダウンロード**ボタンをクリックして、ダウンロード画面を表示します。
 
 <figure>
-  <img src="{{ '/assets/images/ruby/03/vscode-download.png' | relative_url }}" alt="Visual Studio Code">
+  <img src="{{ '/assets/images/ruby/03/vscode-download.png' | relative_url }}" alt="Visual Studio Code" class="img_border">
 </figure>
 
 **User Installer**の**64 bit**をクリックします（管理者権限があればSystem Installerでも問題ありません）。
