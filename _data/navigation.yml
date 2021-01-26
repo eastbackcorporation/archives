@@ -53,5 +53,5 @@ rails:
   - title: "Rails"
     url: /rails/
     children:
-      - title: "Railsの概要"
-        url: /rails/about/
+      - title: "Ruby on Railsの概要"
+        url: /rails/about-rails/

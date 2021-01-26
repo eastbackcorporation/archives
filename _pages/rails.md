@@ -14,7 +14,7 @@ Railsのアプリケーション雛形自動作成機能**scaffold**を使って
 ## 内容
 
 <dl>
-  <dt>Ruby on Railsの概要</dt>
+  <dt><a href="/archives/rails/about-rails/">Ruby on Railsの概要</a></dt>
   <dd>ウェブアプリケーション、Ruby on Railsについて説明します。</dd>
   <dt>開発環境の構築</dt>
   <dd>Paiza Cloudを使って、Railsの開発環境を構築します。</dd>
