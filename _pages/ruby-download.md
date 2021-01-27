@@ -2,7 +2,7 @@
 title: "Ruby実行環境のダウンロード"
 permalink: /ruby-download/
 ---
-**Rubyの実行環境（Windows版、DXRubyインストール済み）をzipで提供します。**
+**Rubyの実行環境（Windows版、DXRubyインストール済み）をzipで提供しています。**
 
 下記ボタンをクリックするとダウンロードが始まります。
 
@@ -20,7 +20,7 @@ permalink: /ruby-download/
 ## 利用方法
 ダウンロードした**ruby_lecture.zip**を、Cドライブ直下に展開してください。
 
-エクスプローラーで`C:¥ruby_lecture¥code.bat`をダブルクリックすると、Visual Studio Codeが起動します。
+エクスプローラーで**C:¥ruby_lecture¥code.bat**をダブルクリックすると、Visual Studio Codeが起動します。
 
 デフォルトの作業フォルダは、 **C:¥ruby_lecture¥code**です。
 
