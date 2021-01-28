@@ -18,6 +18,7 @@ Visual Studio Code（以下VSCode）でRubyが実行できるか確認します�
 VSCodeを起動します。
 
 提供しているRubyの実行環境の場合、**C:¥ruby_lecture¥code.bat**をダブルクリックするとVSCodeが起動します。
+また、ターミナルを開くと**C:¥ruby_lecture¥code**フォルダが表示されます。
 {: .notice--info}
 
 <figure>
