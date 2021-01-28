@@ -190,7 +190,8 @@ puts "私はRubyが好きです。"
   <img src="{{ '/assets/images/ruby/04/vscode-calc.png' | relative_url }}" alt="VSCode calculation.rb">
 </figure>
 
-`puts`の後に、足し算を記入して実行します。
+以下のように、`puts`の後に、足し算を記入します。
+
 ```ruby
 puts 5 + 3
 ```
@@ -198,7 +199,13 @@ puts 5 + 3
 Rubyは、全角・半角、大文字・小文字を区別します。大文字の数字は**数値**として扱いません。
 {: .notice--warning}
 
-実行すると、計算結果が表示されます。
+プログラムを実行します。
+
+```bash
+ruby calculation.rb
+```
+
+計算結果が表示されます。
 ```bash
 8
 ```
@@ -212,7 +219,7 @@ Rubyは、全角・半角、大文字・小文字を区別します。大文字�
 puts 5 + 3 = 8
 ```
 
-実行すると、エラーになりました。
+同様にプログラムを実行すると、エラーになりました。
 ```bash
 syntax error, unexpected '=', expecting end-of-input
 puts 5 + 3 = 8
