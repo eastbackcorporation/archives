@@ -139,6 +139,9 @@ Hello World!
   <img src="{{ '/assets/images/ruby/04/vscode-program3.png' | relative_url }}" alt="VSCode Program">
 </figure>
 
+`ruby h`まで入力して、**タブ**キーを押すと、`ruby hello.rb`とファイル名を保管してくれます。
+{: .notice--info}
+
 次に、**hello.rb**ファイルを、
 ```ruby
 puts "Hello World!ハロールビー！"
@@ -148,6 +151,9 @@ puts "Hello World!ハロールビー！"
 <figure>
   <img src="{{ '/assets/images/ruby/04/vscode-program4.png' | relative_url }}" alt="VSCode Program">
 </figure>
+
+コマンドプロンプトで、**上矢印キー**を押すと、過去のコマンド入力が表示されます（押すたびにさかのぼります）。逆に**下矢印キー**を押すと進みます。
+{: .notice--info}
 
 また、プログラムを、
 ```ruby
