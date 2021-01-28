@@ -43,11 +43,17 @@ seikai = rand(1..100)
 puts seikai
 ```
 
-実行すると、
+プログラムを実行します。
+
+```bash
+ruby number_guessing_game.rb
+```
+
+1から100の間の整数が表示されます。
+
 ```bash
 86
 ```
-1から100の間の整数が表示されます。
 
 <figure>
   <img src="{{ '/assets/images/ruby/06/rand.png' | relative_url }}" alt="VSCode Ruby Version">
