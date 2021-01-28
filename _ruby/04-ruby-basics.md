@@ -146,7 +146,20 @@ Hello World!
 ```ruby
 puts "Hello World!ハロールビー！"
 ```
-と編集して、保存・実行してみてください。
+と編集して、保存してください。
+
+同じようにターミナルで、
+```bash
+ruby hello.rb
+```
+
+と入力して、**Enterキー**を押します。
+
+ターミナルに、
+```bash
+Hello World!ハロールビー！
+```
+と表示されているのを確認します。
 
 <figure>
   <img src="{{ '/assets/images/ruby/04/vscode-program4.png' | relative_url }}" alt="VSCode Program">
