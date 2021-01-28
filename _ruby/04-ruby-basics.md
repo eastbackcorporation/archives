@@ -139,7 +139,7 @@ Hello World!
   <img src="{{ '/assets/images/ruby/04/vscode-program3.png' | relative_url }}" alt="VSCode Program">
 </figure>
 
-`ruby h`まで入力して、**タブ**キーを押すと、`ruby hello.rb`とファイル名を保管してくれます。
+コマンドプロンプトで、`ruby h`まで入力して、**タブ**キーを押すと、`ruby hello.rb`とファイル名を保管してくれます。
 {: .notice--info}
 
 次に、**hello.rb**ファイルを、
