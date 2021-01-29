@@ -44,6 +44,7 @@ rails new eastback-blog
   <img src="{{ '/assets/images/rails/04/project2.png' | relative_url }}" alt="Project">
 </figure>
 
+## ウェブサーバの確認
 ### ウェブサーバの起動
 まだウェブアプリは作成していませんが、ウェブサーバを起動してみます。
 
