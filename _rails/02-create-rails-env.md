@@ -1,8 +1,20 @@
 ---
 title: "Railsアプリ開発環境の構築"
-permalink: /rails/create-rails-environment/
+permalink: /rails/create-rails-env/
 toc: true
 ---
+## ローカルとクラウド
+Railsを使ってウェブアプリを作成する場合、**ローカル**で行う方法と**クラウド**で行う方法があります。
+
+**ローカル**とは、自身のパソコンの事です。そのパソコンには、RubyやRails、その他必要となるアプリケーションをすべて手動でインストールする必要があります。
+一度環境が整えば、インターネットの接続なしでアプリを作成することができます。
+
+**クラウド**とは、この場合、インターネット経由で提供されるRails開発環境の事です。多数の有料無料のサービスが存在します。
+多くの場合、Railsだけではなく、複数の言語やフレームワークに対応しています。簡単に環境が整いますが、インターネット接続がないと利用できません。
+また、無料の場合、利用制限がある場合がほとんどです。
+
+下記には、ローカルの環境構築も記載していますが、基本的にクラウドを使う前提で進めていきます。
+
 ## ローカル環境の構築
 ### Rubyの実行環境
 Railsアプリを開発するには、Rubyをインストールする必要があります。
@@ -28,7 +40,9 @@ Rails6以降は、Railsの他に[Node.js](https://nodejs.org/ja/){:target="_blan
 ### Paiza Cloud
 近年、ウェブでプログラム開発環境を提供するサービスが多く出てきました。
 
-ここでは、無料で使うことができる[Paiza Cloud](https://paiza.cloud/ja/){:target="_blank"}を使う手順を記載します。
+ここでは、無料で使うことができる[Paiza Cloud](https://paiza.cloud/ja/){:target="_blank"}[^1]を使う手順を記載します。
+
+[^1]: 無料プランには、[利用制限](https://paiza.cloud/ja/#pricing){:target="_blank"}があります。
 
 ブラウザから、[Paiza Cloud](https://paiza.cloud/ja/){:target="_blank"}にアクセスします。
 

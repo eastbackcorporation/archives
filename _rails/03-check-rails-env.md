@@ -1,6 +1,6 @@
 ---
 title: "Rails環境の動作確認"
-permalink: /rails/check-rails-app/
+permalink: /rails/check-rails-env/
 toc: true
 ---
 ここでは、Paiza Cloudを使って説明します。
@@ -23,7 +23,7 @@ toc: true
 </figure>
 
 料金をお支払いされる場合は、有料プランを選択されても結構です（有料プランの方が快適に利用できます）。
-{: .notice--info} 
+{: .notice--info}
 
 **サーバ設定**ダイアログが表示されます。
 
@@ -46,6 +46,8 @@ toc: true
 
 
 ## 開発環境の確認
+
+### Rubyの動作確認
 Paiza Cloudの開発環境は、他の開発環境(Visual Studio Codeなど)と似た構造となっています。
 
 中央左側には、ファイルやフォルダがツリー表示されます。右側には、ファイルやターミナルが表示される領域があります。
@@ -87,6 +89,9 @@ Paiza Cloudの開発環境は、他の開発環境(Visual Studio Codeなど)と�
   <img src="{{ '/assets/images/rails/03/check-env5.png' | relative_url }}" alt="Check Env.">
 </figure>
 
+Windowsのターミナル（コマンドプロンプト）とは、若干違います（Linux（リナックス）のターミナルです）。
+{: .notice--warning}
+
 Rubyバージョンの確認と、Rubyプログラムを実行してみます。
 
 **ターミナル**に、`ruby -v`と入力して、Enterキーを押します。Rubyのバージョンが表示されます。
@@ -95,4 +100,11 @@ Rubyバージョンの確認と、Rubyプログラムを実行してみます。
 
 <figure>
   <img src="{{ '/assets/images/rails/03/check-env6.png' | relative_url }}" alt="Check Env.">
+</figure>
+
+### Railsの動作確認
+**ターミナル**に、`rails -v`と入力して、Enterキーを押します。Railsのバージョンが表示されます。
+
+<figure>
+  <img src="{{ '/assets/images/rails/03/check-env7.png' | relative_url }}" alt="Check Env.">
 </figure>

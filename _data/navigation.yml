@@ -56,6 +56,10 @@ rails:
       - title: "Ruby on Railsの概要"
         url: /rails/about-rails/
       - title: "Railsアプリ開発環境の構築"
-        url: /rails/create-rails-environment/
+        url: /rails/create-rails-env/
       - title: "Rails環境の動作確認"
-        url: /rails/check-rails-app/
+        url: /rails/check-rails-env/
+      - title: "Railsプロジェクトの作成"
+        url: /rails/create-rails-project/
+      - title: "ウェブアプリケーションの雛形作成"
+        url: /rails/create-web-app/
