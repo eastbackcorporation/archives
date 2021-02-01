@@ -75,7 +75,7 @@ rails server
   <img src="{{ '/assets/images/rails/04/web-server2.png' | relative_url }}" alt="Web Server">
 </figure>
 
-もし、拡大表示している場合は、一旦元のサイズに戻します。
+もし、ターミナルを拡大表示している場合は、左側のボタンを表示させるために、一旦元のサイズに戻します。
 {: .notice--info}
 
 しばらくすると、画面左側に`3000`と書かれたブラウザアイコンが追加されます。
@@ -105,7 +105,7 @@ rails server
   <img src="{{ '/assets/images/rails/04/web-server6.png' | relative_url }}" alt="Web Server">
 </figure>
 
-次に、ターミナルをクリックして、ウィンドウをアクティブにしてから、**Ctrl + c**（コントロールキーを押しながらCキー）を押してください。
+次に、ターミナルウィンドウのどこでも良いのでクリックして、ウィンドウをアクティブにしてから、**Ctrl + c**（コントロールキーを押しながらCキー）を押してください。
 ターミナルが入力状態に戻ります（ブラウザアイコンも消えます）。
 
 <figure>

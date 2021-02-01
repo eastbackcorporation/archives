@@ -61,5 +61,7 @@ rails:
         url: /rails/check-rails-env/
       - title: "Railsプロジェクトの作成"
         url: /rails/create-rails-project/
-      - title: "ウェブアプリケーションの雛形作成"
+      - title: "ウェブアプリの雛形作成"
         url: /rails/create-web-app/
+      - title: "アプリのカスタマイズ"
+        url: /rails/customize-web-app/

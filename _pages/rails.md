@@ -22,8 +22,8 @@ Railsのアプリケーション雛形自動作成機能**scaffold**を使って
   <dd>Rubyの動作確認、Railsの動作確認を行います。</dd>
   <dt><a href="/archives/rails/create-rails-project/">Railsプロジェクトの作成</a></dt>
   <dd>Railsプロジェクトの作成と、ウェブサーバを起動して動作確認をします。</dd>
-  <dt><a href="/archives/rails/create-web-app/">ウェブアプリケーションの雛形作成</a></dt>
+  <dt><a href="/archives/rails/create-web-app/">ウェブアプリの雛形作成</a></dt>
   <dd>scaffoldを実行して、ウェブアプリケーションの雛形を作成します。</dd>
-  <dt>カスタマイズ</dt>
+  <dt><a href="/archives/rails/create-web-app/">アプリのカスタマイズ</a></dt>
   <dd>作成したウェブアプリケーションをカスタマイズします。</dd>
 </dl>

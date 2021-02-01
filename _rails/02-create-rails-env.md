@@ -44,6 +44,9 @@ Rails6以降は、Railsの他に[Node.js](https://nodejs.org/ja/){:target="_blan
 
 [^1]: 無料プランには、[利用制限](https://paiza.cloud/ja/#pricing){:target="_blank"}があります。
 
+Paiza Cloudの無料プランは、4時間経過するとサーバ停止する（再起動必要）、24時間でサーバが削除される、など制限があり、注意が必要です。
+{: .notice--warning} 
+
 ブラウザから、[Paiza Cloud](https://paiza.cloud/ja/){:target="_blank"}にアクセスします。
 
 <figure>
