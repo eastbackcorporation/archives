@@ -30,7 +30,9 @@ Windows10は、デフォルトでDirectXがインストールされていない�
 DirectXをインストールするか、DirectXのDLLファイルを、rubyの実行ファイルと同じフォルダ（`bin`フォルダ）に置いてください。  
 以下からDLLファイルをダウンロードできるようにしています。  
 [Ruby(64bit版)用DLL](https://download.eastback.co.jp/directx/x64/d3dx9_40.dll){:target="_blank"}  
-[Ruby(32bit版)用DLL](https://download.eastback.co.jp/directx/x86/d3dx9_40.dll){:target="_blank"}
+[Ruby(32bit版)用DLL](https://download.eastback.co.jp/directx/x86/d3dx9_40.dll){:target="_blank"}  
+ランタイムのインストーラーはこちら  
+[DirectX End-User Runtimes(June 2010)](https://download.eastback.co.jp/directx/directx_Jun2010_redist.exe){:target="_blank"}
 {: .notice--warning}
 
 [^2]: [Windows10では、DXRubyを動かすのに d3dx9_40.dllが必要](https://github.com/mirichi/dxruby/issues/3){:target="_blank"}
