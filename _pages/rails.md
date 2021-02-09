@@ -26,4 +26,6 @@ Railsのアプリケーション雛形自動作成機能**scaffold**を使って
   <dd>scaffoldを実行して、ウェブアプリケーションの雛形を作成します。</dd>
   <dt><a href="/archives/rails/create-web-app/">アプリのカスタマイズ</a></dt>
   <dd>作成したウェブアプリケーションをカスタマイズします。</dd>
+  <dt><a href="/archives/rails/rails-learning-sites/">もっとRailsを学ぶ</a></dt>
+  <dd>Railsを学ぶことのできるウェブサービスを紹介します。</dd>
 </dl>

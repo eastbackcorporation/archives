@@ -65,3 +65,5 @@ rails:
         url: /rails/create-web-app/
       - title: "アプリのカスタマイズ"
         url: /rails/customize-web-app/
+      - title: "もっとRailsを学ぶ"
+        url: /rails/rails-learning-sites/
