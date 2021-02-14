@@ -65,7 +65,6 @@ rails generate scaffold モデル名 データ名1:データ型1 データ名2:�
 - 投稿日（published_date）: datetime
 - タイトル（title）: string
 - 内容（content）: text
-- 画像（image）: string
 
 投稿日は、時間も持たせたいので、**datetime**にしています。また、画像はリンク（パス）の文字列を保存させるため、**string**にしています。
 
@@ -100,7 +99,7 @@ cd .. # 一つ上のフォルダへ移動する場合
 ターミナルで、以下を実行してください。
 
 ```bash
-rails generate scaffold blog user_name:string published_date:datetime title:string content:text image:string
+rails generate scaffold blog user_name:string published_date:datetime title:string content:text
 ```
 
 <figure>

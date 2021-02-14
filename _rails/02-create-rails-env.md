@@ -72,7 +72,15 @@ Paiza Cloudの無料プランは、4時間経過するとサーバ停止する�
   <img src="{{ '/assets/images/rails/02/paiza3.png' | relative_url }}" alt="Paiza Cloud">
 </figure>
 
-**確認メールを・・・に送信しました。メールに書かれたURLをクリックしてください。**と表示されますので、指示通りにメールを開いて、URLをクリックします。
+**確認メールを・・・に送信しました。メールに書かれたURLをクリックしてください。**と表示されます。
+
+メールソフトやブラウザのメールサービスを使って、送信されたメールを開いて確認します。
+
+<figure>
+  <img src="{{ '/assets/images/rails/02/paiza-mail.png' | relative_url }}" alt="Paiza Cloud" class="img_border">
+</figure>
+
+メールに書かれているリンクをクリックします。
 
 <figure>
   <img src="{{ '/assets/images/rails/02/paiza4.png' | relative_url }}" alt="Paiza Cloud">
