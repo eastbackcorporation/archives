@@ -56,7 +56,7 @@ rails new eastback-blog
 cd eastback-blog
 ```
 
-プロジェクト名によってフォルダ名が違いますので、フォルダ名に合わせて変えてください。
+プロジェクト名と**フォルダ名**（上記では`eastback-blog`）は同じ名前になります。みなさんの**フォルダ名**に合わせて変えてください。
 {: .notice--warning}
 
 <figure>
