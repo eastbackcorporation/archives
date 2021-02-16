@@ -9,7 +9,7 @@ Railsの**scaffold**は、非常に強力な機能で、
 ウェブサービスで必要な基本的な機能（データ登録、編集、削除、個別表示、一覧表示）を
 コマンド１つで作成する事ができます。
 
-ただ、そのままではシンプルな機能しかありませんし、、見た目も寂しいです。
+ただ、そのままではシンプルな機能しかありませんし、見た目も寂しいです。
 
 ここでは、簡単なカスタマイズのやり方を紹介します。
 
@@ -27,6 +27,10 @@ Railsの**scaffold**は、非常に強力な機能で、
 ~/eastback-blog$
 ```
 
+<figure>
+  <img src="{{ '/assets/images/rails/06/pwd.png' | relative_url }}" alt="pwd">
+</figure>
+
 アプリのフォルダにいることを確認してください。もし違う場所であれば、**cd**コマンドで移動してください。
 
 ウェブブラウザを起動します。以下を実行してください。
@@ -35,9 +39,25 @@ Railsの**scaffold**は、非常に強力な機能で、
 rails server
 ```
 
+<figure>
+  <img src="{{ '/assets/images/rails/06/rails-server.png' | relative_url }}" alt="Rails Server">
+</figure>
+
 ブラウザアイコンをクリックして、ブラウザウィンドウを起動します。
 
-URLの最後に**/blogs**を追加して、Enterキーを押します。ブログアプリが表示されます。
+<figure>
+  <img src="{{ '/assets/images/rails/06/rails-server2.png' | relative_url }}" alt="Rails Server">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/rails/06/rails-server3.png' | relative_url }}" alt="Rails Server">
+</figure>
+
+ブラウザのURLの最後に**/blogs**を追加して、Enterキーを押します。ブログアプリが表示されます。
+
+<figure>
+  <img src="{{ '/assets/images/rails/06/rails-server4.png' | relative_url }}" alt="Rails Server">
+</figure>
 
 ## パスのカスタマイズ
 
@@ -47,13 +67,25 @@ URLの最後に**/blogs**を追加して、Enterキーを押します。ブロ�
 
 左側のツリーから`/app/config/routes.rb`ファイルをダブルクリックして開きます。
 
+<figure>
+  <img src="{{ '/assets/images/rails/06/routes.png' | relative_url }}" alt="Routes">
+</figure>
+
 1行目の後に以下の行を挿入してください。
 
 ```ruby
 root to: "blogs#index"
 ```
 
+<figure>
+  <img src="{{ '/assets/images/rails/06/routes2.png' | relative_url }}" alt="Routes">
+</figure>
+
 URLの最後の**/blogs**を削除して、Enterキーを押します。ブログアプリが表示されます。
+
+<figure>
+  <img src="{{ '/assets/images/rails/06/routes3.png' | relative_url }}" alt="Routes">
+</figure>
 
 このように、**routes.rb**は、Rails内の機能とURLパスを結びつける設定を記述するためのファイルです。
 
@@ -71,6 +103,10 @@ RailsでBootstrapを利用する方法はいくつかあります（特にRails�
 ### Bootstrapの導入
 左側のツリーから`/app/views/layouts/application.html.erb`ファイルをダブルクリックして開きます。
 
+<figure>
+  <img src="{{ '/assets/images/rails/06/design.png' | relative_url }}" alt="Design">
+</figure>
+
 8、9行目
 ```html
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -85,6 +121,10 @@ RailsでBootstrapを利用する方法はいくつかあります（特にRails�
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 ```
+
+<figure>
+  <img src="{{ '/assets/images/rails/06/design2.png' | relative_url }}" alt="Design">
+</figure>
 
 ### コンテンツへの適用
 
@@ -101,7 +141,15 @@ RailsでBootstrapを利用する方法はいくつかあります（特にRails�
     </div>
 ```
 
+<figure>
+  <img src="{{ '/assets/images/rails/06/design3.png' | relative_url }}" alt="Design">
+</figure>
+
 ブラウザウィンドウをリロードすると、ブログアプリのデザインが若干変化します。
+
+<figure>
+  <img src="{{ '/assets/images/rails/06/design4.png' | relative_url }}" alt="Design">
+</figure>
 
 14行目の`<body>`のすぐ後に、以下を挿入します。
 
@@ -122,7 +170,21 @@ RailsでBootstrapを利用する方法はいくつかあります（特にRails�
     </nav>
 ```
 
+<figure>
+  <img src="{{ '/assets/images/rails/06/design5.png' | relative_url }}" alt="Design">
+</figure>
+
+
 上記の2行目**イーストバック　ブログ**の部分を、それぞれのブログのタイトルに変更してください。
+{: .notice--info}
+
+ブラウザウィンドウをリロードすると、上の部分にタイトルが表示されます。
+
+また、レスポンシブル（ブラウザの幅が変わっても、それに対応してデザインが変化する：スマホにも対応）になっています。
+
+<figure>
+  <img src="{{ '/assets/images/rails/06/design6.png' | relative_url }}" alt="Design">
+</figure>
 
 ## 機能の追加
 
