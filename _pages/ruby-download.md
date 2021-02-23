@@ -6,7 +6,7 @@ permalink: /ruby-download/
 
 下記ボタンをクリックするとダウンロードが始まります。
 
-[<i class="fas fa-download"></i> Ruby実行環境のダウンロード](https://download.eastback.co.jp/minamiko/ruby_lecture.zip){: .btn .btn--success}
+[<i class="fas fa-download"></i> Ruby実行環境のダウンロード](https://download.eastback.co.jp/ruby/ruby_lecture.zip){: .btn .btn--success}
 
 ## 内容
 - Ruby: RubyInstaller for Windows Ruby+Devkit 2.7.2-1 (x86) （DXRuby 1.4.7 インストール済み、DirectX DLLを含む）
