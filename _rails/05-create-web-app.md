@@ -73,7 +73,7 @@ rails generate scaffold モデル名 データ名1:データ型1 データ名2:�
 
 ### scaffoldの実行
 
-ターミナルで、現在の位置を確認します。以下を入力してください。
+ターミナルで、現在の場所を確認します。以下を入力してください。
 
 ```bash
 pwd
@@ -82,7 +82,7 @@ pwd
 **pwd**はLinuxコマンドです。
 {: .notice--info}
 
-現在いる位置が表示されます。
+現在いる場所が表示されます。
 
 ```bash
 /home/ubuntu/eastback-blog
@@ -92,14 +92,11 @@ pwd
   <img src="{{ '/assets/images/rails/05/pwd.png' | relative_url }}" alt="pwd">
 </figure>
 
-もし、違っているのであれば、**cd**コマンドで移動します。
+プロジェクト名と**フォルダ名**（上記では`eastback-blog`）は同じ名前になります。みなさんの**フォルダ名**に合わせて変えてください。
+もし、場所が違っているのであれば、**cd**コマンドで移動てください。
+{: .notice--warning}
 
-```bash
-cd eastback-blog # eastback-blogフォルダへ移動する場合
-cd .. # 一つ上のフォルダへ移動する場合
-```
-
-ターミナルで、以下を実行してください。
+それでは、ブログアプリを作成します。ターミナルで、以下を実行してください。
 
 ```bash
 rails generate scaffold blog user_name:string published_date:datetime title:string content:text
