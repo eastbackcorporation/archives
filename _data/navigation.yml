@@ -5,6 +5,8 @@ main:
     url: /dxruby/
   - title: "Rails"
     url: /rails/
+  - title: "Make3D"
+    url: /make3d/
   - title: "公式Webサイト"
     url: https://www.eastback.co.jp/
 
@@ -67,3 +69,10 @@ rails:
         url: /rails/customize-web-app/
       - title: "もっとRailsを学ぶ"
         url: /rails/rails-learning-sites/
+
+rails:
+  - title: "Make3D"
+    url: /make3d/
+    children:
+      - title: "Ruby on Railsの概要"
+        url: /make3d/about-kossel-mini-eb/
