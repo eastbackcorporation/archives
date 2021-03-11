@@ -1,12 +1,16 @@
 ---
-title: "Make3D"
+title: "3Dプリンター「Kossel Mini EB」組み立てマニュアル"
 permalink: /make3d/
 sidebar:
   nav: "make3d"
 ---
+<figure>
+  <img src="{{ '/assets/images/make3d/KosselMiniEB.jpg' | relative_url }}" alt="Kossel Mini EB">
+</figure>
+
 ## 概要
 
-3Dプリンター「Kossel Mini EB」組み立てマニュアル
+株式会社イーストバックが販売する3Dプリンター「Kossel Mini EB」の組み立てマニュアルです。
 
 - [Kossel Mini EBの概要](/archives/make3d/about-kossel-mini-eb)
 

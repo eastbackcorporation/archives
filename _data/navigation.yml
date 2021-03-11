@@ -70,9 +70,9 @@ rails:
       - title: "もっとRailsを学ぶ"
         url: /rails/rails-learning-sites/
 
-rails:
-  - title: "Make3D"
+make3d:
+  - title: "Kossel Mini EB<br/>組み立てマニュアル"
     url: /make3d/
     children:
-      - title: "Ruby on Railsの概要"
+      - title: "Kossel Mini EBの概要"
         url: /make3d/about-kossel-mini-eb/
