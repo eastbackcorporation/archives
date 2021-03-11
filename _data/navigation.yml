@@ -76,3 +76,67 @@ make3d:
     children:
       - title: "Kossel Mini EBの概要"
         url: /make3d/about-kossel-mini-eb/
+      - title: "部品の確認"
+        url: /make3d/check-parts/
+      - title: "組み立てに必要な道具"
+        url: /make3d/tools-required-for-assembly/
+      - title: "ロッドの組み立て"
+        url: /make3d/assembling-the-rods/
+      - title: "ボトムボディーの組み立て"
+        url: /make3d/bottom-body-assembly/
+      - title: "トップボディーの組み立て"
+        url: /make3d/assembling-the-top-body/
+      - title: "縦フレームの取り付け"
+        url: /make3d/installation-of-vertical-frame/
+      - title: "エンドストップの取り付け"
+        url: /make3d/installation-of-end-stop/
+      - title: "トップボディーの取り付け"
+        url: /make3d/installation-of-top-body/
+      - title: "エンドストップケーブルの引き回し、スプールホルダー等の取り付け"
+        url: /make3d/route-of-end-stop-cable-etc/
+      - title: "ダンパーの取り付け"
+        url: /make3d/damper-installation/
+      - title: "電子機器の取り付け"
+        url: /make3d/installation-of-electronic-devices/
+      - title: "キャリッジの組み立て"
+        url: /make3d/carriage-assembly/
+      - title: "キャリッジの取り付け"
+        url: /make3d/carriage-installation/
+      - title: "ベルトの取り付け"
+        url: /make3d/belt-installation/
+      - title: "エフェクターの取り付け"
+        url: /make3d/installation-of-effector/
+      - title: "ホットエンドの組み立て"
+        url: /make3d/assembling-the-hot-end/
+      - title: "ホットエンドの取り付け"
+        url: /make3d/hot-end-installation/
+      - title: "Zプローブの組み立て"
+        url: /make3d/assembling-the-z-probe/
+      - title: "エクストルーダーの組み立て"
+        url: /make3d/extruder-assembly/
+      - title: "ガラスタブ、リトラクター、LCDの取り付け"
+        url: /make3d/installation-of-glass-etc/
+      - title: "配線、ベッドの取り付け"
+        url: /make3d/wiring-and-bed-installation/
+      - title: "最終確認"
+        url: /make3d/final-confirmation/
+      - title: "利用するソフトウェア"
+        url: /make3d/software-to-use/
+      - title: "ファームウェアのインストール"
+        url: /make3d/firmware-installation/
+      - title: "コントローラーのインストールと設定"
+        url: /make3d/controller-installation/
+      - title: "スライサーのインストールと設定"
+        url: /make3d/slicer-installation/
+      - title: "動作確認および初期設定"
+        url: /make3d/operation-check-and-initial-setting/
+      - title: "キャリブレーションの設定"
+        url: /make3d/calibration-settings/
+      - title: "3Dモデルデータの取得"
+        url: /make3d/acquisition-of-3d-model-data/
+      - title: "3Dプリントの実行"
+        url: /make3d/3d-printing/
+      - title: "ヒートベッドの取り付け"
+        url: /make3d/installation-of-heat-bed/
+      - title: "ヒートベッドの設定"
+        url: /make3d/heat-bed-setting/
