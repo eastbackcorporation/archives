@@ -5,7 +5,7 @@ toc: true
 ---
 ## Kossel Mini EBとは
 
-Kossel Mini EBは3Dプリンターの組み立て（DIY）キットです。
+Kossel Mini EB（コッセル・ミニ・イービー）は3Dプリンターの組み立て（DIY）キットです。
 
 <figure>
   <img src="{{ '/assets/images/make3d/001/KosselMiniEB.jpg' | relative_url }}" alt="Kossel Mini EB">
@@ -23,12 +23,12 @@ Kossel Mini EBは3Dプリンターの組み立て（DIY）キットです。
 
 Kossel Mini EBは、Johann氏が設計したKossel（Kossel Mini）をベースとし、世界中の方々が公開したオープンソースの部品を組み合わせて、より改良を加えた3Dプリンターです。
 
-**[Kosselについて]**  
+**【Kosselについて】**  
 Kosselは、Johann C. Rocholl氏により設計されたデルタ型（Rostock型）の3Dプリンターです。  
 [RepRap](http://reprap.org/wiki/Kossel){:target="_blank"}としてGPLで公開されています。  
 {: .notice--info} 
 
-Kossel Mini EBの設計データもオープンソースとして公開しています。
+Kossel Mini EBの設計データも、オープンソースとして公開しています。
 
 [GitHubリポジトリ](https://github.com/EastBackCorporation/kossel){:target="_blank"}
 
@@ -53,8 +53,11 @@ Kossel Mini EBの設計データもオープンソースとして公開してい
 
 Kossel Mini EBを動作させるために必要なソフトウェアは、すべてオープンソースとして公開されているものを使用します（ソフトウェアを別途購入する必要はありません）。
 
-## 使用素材について
+## 使用できる素材について
 
-本製品で確認している素材はPLAとなります（別売りの「ヒートベッドセット」を使用したABSの実績はあります）。
+本製品で確認している使用できる素材は、**PLA**となります。
 
-ホットエンドの設定温度を変更することで、それ以外の素材の使用も可能性はあります。
+別売りの「ヒートベッドセット」を使用した**ABS**の実績はあります。
+{: .notice--info} 
+
+ホットエンドの設定温度を変更することで、PLA以外の素材の使用も可能性はあります。

@@ -10,7 +10,7 @@ sidebar:
 
 ## 概要
 
-株式会社イーストバックが販売する3Dプリンター「Kossel Mini EB」の組み立てマニュアルです。
+株式会社イーストバックが販売する3Dプリンター「Kossel Mini EB」（コッセル・ミニ・イービー）の組み立てマニュアルです。
 
 - [Kossel Mini EBの概要](/archives/make3d/about-kossel-mini-eb/)
 
