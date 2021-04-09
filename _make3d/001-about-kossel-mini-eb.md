@@ -19,7 +19,7 @@ Kossel Mini EBは3Dプリンターの組み立て（DIY）キットです。
   <img src="{{ '/assets/images/make3d/001/KosselMiniEB3.jpg' | relative_url }}" alt="Kossel Mini EB">
 </figure>
 
-[![YouTube動画](http://img.youtube.com/vi/sJtYJfl0eDg/0.jpg)](https://www.youtube.com/watch?v=sJtYJfl0eDg "Kossel Mini EB")
+[![YouTube動画](https://img.youtube.com/vi/sJtYJfl0eDg/0.jpg)](https://www.youtube.com/watch?v=sJtYJfl0eDg "Kossel Mini EB")
 
 Kossel Mini EBは、Johann氏が設計したKossel（Kossel Mini）をベースとし、世界中の方々が公開したオープンソースの部品を組み合わせて、より改良を加えた3Dプリンターです。
 
