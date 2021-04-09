@@ -16,4 +16,6 @@ permalink: /
   <dd>DXRubyライブラリを使った簡単なゲームを作成して、オブジェクト指向プログラミングを学びます。</dd>
   <dt><a href="/archives/rails/">Rails</a></dt>
   <dd>Ruby on Railsのscaffoldを使い、簡単なウェブアプリを作成します。</dd>
+  <dt><a href="/archives/make3d/">Make3D</a></dt>
+  <dd>3Dプリンター「Kossel Mini EB」組み立てマニュアル</dd>
 </dl>
