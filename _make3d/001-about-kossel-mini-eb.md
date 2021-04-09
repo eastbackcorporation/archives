@@ -8,15 +8,15 @@ toc: true
 Kossel Mini EBは3Dプリンターの組み立て（DIY）キットです。
 
 <figure>
-  <img src="{{ '/assets/images/make3d/KosselMiniEB.jpg' | relative_url }}" alt="Kossel Mini EB">
+  <img src="{{ '/assets/images/make3d/001/KosselMiniEB.jpg' | relative_url }}" alt="Kossel Mini EB">
 </figure>
 
 <figure>
-  <img src="{{ '/assets/images/make3d/KosselMiniEB2.jpg' | relative_url }}" alt="Kossel Mini EB">
+  <img src="{{ '/assets/images/make3d/001/KosselMiniEB2.jpg' | relative_url }}" alt="Kossel Mini EB">
 </figure>
 
 <figure>
-  <img src="{{ '/assets/images/make3d/KosselMiniEB3.jpg' | relative_url }}" alt="Kossel Mini EB">
+  <img src="{{ '/assets/images/make3d/001/KosselMiniEB3.jpg' | relative_url }}" alt="Kossel Mini EB">
 </figure>
 
 [![YouTube動画](http://img.youtube.com/vi/sJtYJfl0eDg/0.jpg)](https://www.youtube.com/watch?v=sJtYJfl0eDg "Kossel Mini EB")

@@ -5,7 +5,7 @@ sidebar:
   nav: "make3d"
 ---
 <figure>
-  <img src="{{ '/assets/images/make3d/KosselMiniEB.jpg' | relative_url }}" alt="Kossel Mini EB">
+  <img src="{{ '/assets/images/make3d/kossel_mini_eb.png' | relative_url }}" alt="Kossel Mini EB">
 </figure>
 
 ## 概要
