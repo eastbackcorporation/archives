@@ -5,6 +5,8 @@ main:
     url: /dxruby/
   - title: "Rails"
     url: /rails/
+  - title: "GitHub"
+    url: /github/
   - title: "Make3D"
     url: /make3d/
   - title: "公式Webサイト"
@@ -69,6 +71,25 @@ rails:
         url: /rails/customize-web-app/
       - title: "もっとRailsを学ぶ"
         url: /rails/rails-learning-sites/
+
+github:
+  - title: "GitHub"
+    url: /github/
+    children:
+      - title: "GitおよびGitHubの概要"
+        url: /github/about-github/
+      - title: "GitHubのアカウント作成"
+        url: /github/create-github-account/
+      - title: "リポジトリの作成"
+        url: /github/create-repository/
+      - title: "リポジトリの更新"
+        url: /github/update-repository/
+      - title: "ブランチの作成"
+        url: /github/create-branch/
+      - title: "プルリクエストとマージ"
+        url: /github/pull-request-and-merge/
+      - title: "もっとGitHubを学ぶ"
+        url: /github/github-learning-sites/
 
 make3d:
   - title: "Kossel Mini EB<br/>組み立てマニュアル"
