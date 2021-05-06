@@ -99,10 +99,25 @@ Gitの管理下にあるファイルの変更（追加）を、履歴として�
 git commit -m "READMEの変更とhello.rbの追加" # クウォート内はコミットメッセージ
 ```
 
+<figure>
+  <img src="{{ '/assets/images/github/04/commit-error.png' | relative_url }}" alt="GitHub Login" class="img_border">
+</figure>
+
+（想定通り）エラーが発生しました。Gitの設定をしていませんでした。エラーの指示通りに、設定を行います。
+
+以下のコマンドを実行します。
+
+```bash
+git config --global user.email "you@example.com" # 適宜書き換えてください
+git config --global user.name "Your Name" # 適宜書き換えてください
+```
+
+再度、コミットコマンドを実行します。
+
 コミット後、「git status」で状態を確認します。
 
 <figure>
-  <img src="{{ '/assets/images/github/04/commit.png' | relative_url }}" alt="GitHub Login" class="img_border">
+  <img src="{{ '/assets/images/github/04/re-commit.png' | relative_url }}" alt="GitHub Login" class="img_border">
 </figure>
 
 変更はコミットされて、クリーンな状態（管理下にない変更ファイル、管理下の変更ファイル、両方のない状態）になりました。
@@ -113,7 +128,7 @@ git commit -m "READMEの変更とhello.rbの追加" # クウォート内はコ�
   <img src="{{ '/assets/images/github/04/git-log.png' | relative_url }}" alt="GitHub Login" class="img_border">
 </figure>
 
-先程コミットした履歴が表示されます。
+先程コミットした履歴が追加されています。
 
 ## リモートリポジトリの更新
 
@@ -127,3 +142,36 @@ git commit -m "READMEの変更とhello.rbの追加" # クウォート内はコ�
 git push origin main
 ```
 「origin」はリモートリポジトリ（にデフォルトで付けられた名前）、「main」は対象のブランチ名を表しています。
+
+<figure>
+  <img src="{{ '/assets/images/github/04/push1.png' | relative_url }}" alt="GitHub Login" class="img_border">
+</figure>
+
+コマンドを実行すると、Githubへの認証を促すダイアログが表示されます。
+
+ブラウザでの認証とPersonal Access Tokenによる認証の２種類が選択できます。ここでは、ブラウザ認証を選択します。
+
+ここではブラウザ認証を行いましたが、セキュリティーや利便性から「Personal Access Token」の利用をお勧めします。
+{: .notice--info} 
+
+<figure>
+  <img src="{{ '/assets/images/github/04/github-auth.png' | relative_url }}" alt="GitHub Login" class="img_border">
+</figure>
+
+すでにGitHubにログインしている状態であれば、すぐに以下の画面が表示されます。未ログインであればログイン画面が表示されますので、ログイン情報を入力すると、以下の画面が表示されます。
+
+<figure>
+  <img src="{{ '/assets/images/github/04/github-auth2.png' | relative_url }}" alt="GitHub Login" class="img_border">
+</figure>
+
+VSCodeのターミナルでは、認証されると、push処理が実行されます。
+
+<figure>
+  <img src="{{ '/assets/images/github/04/push2.png' | relative_url }}" alt="GitHub Login" class="img_border">
+</figure>
+
+ブラウザでGitHubのリポジトリを表示させると、変更が適用されていることが確認できます。
+
+<figure>
+  <img src="{{ '/assets/images/github/04/update-completed.png' | relative_url }}" alt="GitHub Login" class="img_border">
+</figure>
