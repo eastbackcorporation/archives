@@ -88,13 +88,13 @@ GitHubのリポジトリのページを表示します。
 「Confirm merge」ボタンが表示されますので、このボタンを押します。
 
 <figure>
-  <img src="{{ '/assets/images/github/07/pull-request7.png' | relative_url }}" alt="GitHub Login" class="img_border">
+  <img src="{{ '/assets/images/github/06/pull-request7.png' | relative_url }}" alt="GitHub Login" class="img_border">
 </figure>
 
 これでマージは完了です。左上の「Code」をクリックします。
 
 <figure>
-  <img src="{{ '/assets/images/github/07/pull-request8.png' | relative_url }}" alt="GitHub Login" class="img_border">
+  <img src="{{ '/assets/images/github/06/pull-request8.png' | relative_url }}" alt="GitHub Login" class="img_border">
 </figure>
 
 「main」ブランチに「test1」ブランチの内容が反映されています。
@@ -102,11 +102,11 @@ GitHubのリポジトリのページを表示します。
 「2 branches」をクリックして、ブランチの一覧を表示します。
 
 <figure>
-  <img src="{{ '/assets/images/github/07/pull-request9.png' | relative_url }}" alt="GitHub Login" class="img_border">
+  <img src="{{ '/assets/images/github/06/pull-request9.png' | relative_url }}" alt="GitHub Login" class="img_border">
 </figure>
 
 「test1」ブランチには「merged」と表示されています。「test1」ブランチは正常に取り込まれたので、削除しても構いません。
 
 <figure>
-  <img src="{{ '/assets/images/github/07/pull-request10.png' | relative_url }}" alt="GitHub Login" class="img_border">
+  <img src="{{ '/assets/images/github/06/pull-request10.png' | relative_url }}" alt="GitHub Login" class="img_border">
 </figure>
