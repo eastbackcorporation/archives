@@ -9,7 +9,7 @@ sidebar:
 
 GitHubを利用して、Gitリポジトリの作成や簡単な操作を行います。
 
-さらに、プルリクエストとマージを行います。
+さらに、マージとプルリクエストを行います。
 
 ## 内容
 
@@ -22,10 +22,10 @@ GitHubを利用して、Gitリポジトリの作成や簡単な操作を行い�
   <dd>リモートおよびローカルでリポジトリを作成します。</dd>
   <dt><a href="/archives/github/update-repository/">リポジトリの更新</a></dt>
   <dd>リポジトリを更新します。</dd>
-  <dt><a href="/archives/github/create-branch/">ブランチの作成</a></dt>
+  <dt><a href="/archives/github/use-branch/">ブランチの作成</a></dt>
   <dd>ブランチを作成します。</dd>
-  <dt><a href="/archives/github/pull-request-and-merge/">プルリクエストとマージ</a></dt>
-  <dd>プルリクエストとマージを行います。</dd>
+  <dt><a href="/archives/github/merge-and-pull-request/">マージとプルリクエスト</a></dt>
+  <dd>マージとプルリクエストを行います。</dd>
   <dt><a href="/archives/github/github-learning-sites/">もっとGitHubを学ぶ</a></dt>
   <dd>GitHubを学ぶことのできるウェブサービスを紹介します。</dd>
 </dl>

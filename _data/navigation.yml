@@ -85,9 +85,9 @@ github:
       - title: "リポジトリの更新"
         url: /github/update-repository/
       - title: "ブランチの作成"
-        url: /github/create-branch/
-      - title: "プルリクエストとマージ"
-        url: /github/pull-request-and-merge/
+        url: /github/use-branch/
+      - title: "マージとプルリクエスト"
+        url: /github/merge-and-pull-request/
       - title: "もっとGitHubを学ぶ"
         url: /github/github-learning-sites/
 

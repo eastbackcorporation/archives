@@ -51,7 +51,7 @@ Webサイトの「Download」ボタンを押します。
   <img src="{{ '/assets/images/github/02/git-installer5.png' | relative_url }}" alt="Git for Windows" class="img_border">
 </figure>
 
-リポジトリを新規作成した時のブランチ名（「プルリクエストとマージ」で説明します）の設定が表示されます。
+リポジトリを新規作成した時のブランチ名（「マージとプルリクエスト」で説明します）の設定が表示されます。
 
 これまで、Gitのデフォルトブランチ名は「master」でした。しかし、近年「master」は差別用語になるとの意見があり、GitHubをはじめ、その他リポジトリサービスでは、「main」をデフォルトブランチ名にする動きがあります。今回は、GitHubを使いますので、「main」の方のラジオボタンを選択します。「Next」ボタンを押します。
 
