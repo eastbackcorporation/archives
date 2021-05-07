@@ -11,7 +11,7 @@ Macには、デフォルトでGitがインストールされています。
 
 ここでは、Windows10にGitをインストールする手順を示します。
 
-ブラウザから、「Git for Windows」を検索して、Webサイトを表示させます。
+ブラウザから、「[Git for Windows](https://gitforwindows.org/){:target="_blank"}」を検索して、Webサイトを表示させます。
 
 Webサイトの「Download」ボタンを押します。
 
