@@ -274,6 +274,9 @@ collections:
   rails:
     output: true
     permalink: /:collection/:path/
+  github:
+    output: true
+    permalink: /:collection/:path/
   make3d:
     output: true
     permalink: /:collection/:path/
@@ -323,6 +326,18 @@ defaults:
       share: false
       sidebar:
         nav: "rails"
+  # _github
+  - scope:
+      path: ""
+      type: github
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      sidebar:
+        nav: "github"
   # _make3d
   - scope:
       path: ""
