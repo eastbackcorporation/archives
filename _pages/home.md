@@ -9,6 +9,8 @@ permalink: /
 
 ## コンテンツ
 
+{% include ruby_env.html %}
+
 <dl>
   <dt><a href="/archives/ruby/">Ruby</a></dt>
   <dd>Rubyの概要、テキストベースのゲームを作成して、プログラミングの基礎を学びます。</dd>
