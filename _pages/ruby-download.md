@@ -9,13 +9,13 @@ permalink: /ruby-download/
 [<i class="fas fa-download"></i> Ruby実行環境のダウンロード](https://download.eastback.co.jp/ruby/ruby_lecture.zip){: .btn .btn--success}
 
 ## 内容
-- Ruby: RubyInstaller for Windows Ruby 3.0.2-1 (x86) (Without Devkit) （DXRuby 1.4.7 インストール済み、DirectX DLLを含む）
-- IDE: Visual Studio Code 1.59.0 （.zip 64bit版）
+- Ruby: RubyInstaller for Windows Ruby 3.0.4-1 (x86) (Without Devkit) （DXRuby 1.4.7 インストール済み、DirectX DLLを含む）
+- IDE: Visual Studio Code 1.67.2 （.zip 64bit版）
 
-[2021/08/06] RubyとVSCodeのバージョンをアップしました。
+[2022/06/09] RubyとVSCodeのバージョンをアップしました。
 {: .notice--info} 
 
-[2021/01/19] RubyInstaller 64bit版では、DXRubyでwavファイルを再生するとエラーが発生します[^1]。そのため32bit版を使用しています。
+[2021/01/19] RubyInstaller 64ビット(x64)版では、DXRubyでwavファイルを再生するとエラーが発生します[^1]。そのため32ビット(x86)版を使用しています。
 {: .notice--warning} 
 
 [^1]: [[DXRuby 1.4.7] 64bitでは、Sound.newでエラー](https://github.com/mirichi/dxruby/issues/4){:target="_blank"}
@@ -25,7 +25,9 @@ permalink: /ruby-download/
 
 エクスプローラーで**C:¥ruby_lecture¥code.bat**をダブルクリックすると、Visual Studio Codeが起動します。
 
-デフォルトの作業フォルダは、 **C:¥ruby_lecture¥code**です。
+作業フォルダは、 **C:¥ruby_lecture¥code**に設定してあります。
+
+ターミナルのデフォルトは、**【Ruby】Command Prompt**です。Rubyのパスを通してありますので、Rubyが使用できます。また、**【Ruby】PowerShell**は、PowerShellでRubyが使用できます。
 
 ## 注意
 初回起動時に、**Microsoft Defender SmartScreen**のダイアログが表示されることがあります。
