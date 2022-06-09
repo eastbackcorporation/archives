@@ -12,7 +12,8 @@ permalink: /ruby-download/
 - Ruby: RubyInstaller for Windows Ruby 3.0.4-1 (x86) (Without Devkit) （DXRuby 1.4.7 インストール済み、DirectX DLLを含む）
 - IDE: Visual Studio Code 1.67.2 （.zip 64bit版）
 
-[2022/06/09] RubyとVSCodeのバージョンをアップしました。
+[2022/06/09] RubyとVSCodeのバージョンをアップしました。  
+ターミナルに、Rubyが使用できるPowerShellを追加しました。
 {: .notice--info} 
 
 [2021/01/19] RubyInstaller 64ビット(x64)版では、DXRubyでwavファイルを再生するとエラーが発生します[^1]。そのため32ビット(x86)版を使用しています。
