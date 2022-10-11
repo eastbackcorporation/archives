@@ -62,7 +62,7 @@ ruby number_guessing_game.rb
 何度か実行を繰り返してみてください。
 
 ### プレーヤーの値入力
-プレーヤーが値を入力するプログラムを書きます。[Rubyの基礎 - メソッド](/archives/ruby/ruby-basics/#%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89){:target="_blank"}のプログラムを参考にします。入力した整数は、変数**kaitou**に代入します。
+プレーヤーが値を入力するプログラムを書きます。[Rubyの基礎 - メソッド](/archives/ruby/ruby-basics/#%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89){:target="_blank"}のプログラムを参考にします。入力した整数は、変数**nyuryoku**に代入します。
 
 **puts seikai**は、コメントにして（コメントアウトと言います）実行されないようにします。
 
