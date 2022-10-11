@@ -112,7 +112,7 @@ puts "Hello World!"
 ファイルの保存は、ショートカットキー（Ctrl + s：コントロールキーを押しながらsキーを押す）を使用して保存するやり方が簡単です。
 {: .notice--info}
 
-ファイル名のタブの右側に丸（●）がある場合は、変更が保存されていない状態です。保存するとバッテン（✕）になります。
+ファイル名のTabの右側に丸（●）がある場合は、変更が保存されていない状態です。保存するとバッテン（✕）になります。
 {: .notice--info}
 
 その他のショートカットキー  
@@ -139,7 +139,7 @@ Hello World!
   <img src="{{ '/assets/images/ruby/04/vscode-program3.png' | relative_url }}" alt="VSCode Program">
 </figure>
 
-コマンドプロンプトで、`ruby h`まで入力して、**タブ**キーを押すと、`ruby hello.rb`とファイル名を保管してくれます。
+コマンドプロンプトで、`ruby h`まで入力して、**Tab**キーを押すと、`ruby hello.rb`とファイル名を保管してくれます。
 {: .notice--info}
 
 次に、**hello.rb**ファイルを、
