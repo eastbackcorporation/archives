@@ -18,7 +18,7 @@ toc: true
 - ５列目：ホットエンド等、ボルト・ナット等、ベルト：３本、ベッド（ガラス）、電源アダプタ、電源ケーブル
 
 <figure>
-  <img src="{{ '/assets/images/make3d/101/101-2.webp' | relative_url }}" alt="101-2">
+  <img src="{{ '/assets/images/make3d/101/101-2.png' | relative_url }}" alt="101-2">
 </figure>
 
 プラスチックパーツ２袋に含まれる部品は以下です。
