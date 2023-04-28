@@ -5,6 +5,12 @@ toc: true
 ---
 ## GitHubアカウントの作成
 
+GitHubのウェブサイトから、「Sign up」をクリックしてアカウントを作成してください。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website.png' | relative_url }}" alt="GitHub" class="img_border">
+</figure>
+
 ## Gitのインストール
 
 Macには、デフォルトでGitがインストールされています。
