@@ -28,9 +28,9 @@ Gitでは、各ユーザのワーキングディレクトリに、全履歴を�
 
 GitHub（ギットハブ）は、ソフトウェア開発プロジェクトのための共有ウェブサービスであり、Gitバージョン管理システムを使用しています。
 
-Ruby on RailsおよびErlangで記述されており、GitHub社によって保守されています。
+Ruby on RailsおよびErlangで記述されており、GitHub社によって保守されています（GitHub社は、2018年10月にMicrosoft社によって買収された）。
 
-GitHub商用プランおよびオープンソースプロジェクト向けの無料アカウントを提供しています。
+GitHubは、個人向けの無料プランと、小規模プロジェクトおよび大規模プロジェクト（企業）プラン向けの有料プランを提供しています。
 
 2009年のユーザー調査によると、GitHubは最もポピュラーなGitホスティングサイトとなりました。[^3]
 
@@ -38,14 +38,14 @@ GitHub商用プランおよびオープンソースプロジェクト向けの�
 
 ## リファレンス
 
-Git公式ウェブサイト  
+Git公式ウェブサイト
 [https://git-scm.com/](https://git-scm.com/){:target="_blank"}
 
-Gitドキュメント  
+Gitドキュメント
 [https://git-scm.com/doc/](https://git-scm.com/doc/){:target="_blank"}
 
-GitHub公式ウェブサイト  
+GitHub公式ウェブサイト
 [https://github.com/](https://github.com/){:target="_blank"}
 
-GitHubドキュメント  
+GitHubドキュメント
 [https://docs.github.com/ja/](https://docs.github.com/ja/){:target="_blank"}
