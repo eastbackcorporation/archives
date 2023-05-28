@@ -20,6 +20,8 @@ permalink: /
   <dd>Ruby on Railsのscaffoldを使い、簡単なウェブアプリを作成します。</dd>
   <dt><a href="/archives/github/">GitHub</a></dt>
   <dd>GitおよびGitHubの簡単な使い方を学びます。</dd>
+  <dt><a href="/archives/jekyll/">Jekyll</a></dt>
+  <dd>Jekyllを使ってウェブサイトを作成します。</dd>
   <dt><a href="/archives/make3d/">Make3D</a></dt>
   <dd>3Dプリンター「Kossel Mini EB」組み立てマニュアル</dd>
 </dl>

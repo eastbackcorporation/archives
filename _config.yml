@@ -277,6 +277,9 @@ collections:
   github:
     output: true
     permalink: /:collection/:path/
+  jekyll:
+    output: true
+    permalink: /:collection/:path/
   make3d:
     output: true
     permalink: /:collection/:path/
@@ -338,6 +341,18 @@ defaults:
       share: false
       sidebar:
         nav: "github"
+  # _jekyll
+  - scope:
+      path: ""
+      type: jekyll
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      sidebar:
+        nav: "jekyll"
   # _make3d
   - scope:
       path: ""
