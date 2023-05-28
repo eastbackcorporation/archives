@@ -7,6 +7,8 @@ main:
     url: /rails/
   - title: "GitHub"
     url: /github/
+  - title: "Jekyll"
+    url: /jekyll/
   - title: "Make3D"
     url: /make3d/
   - title: "公式Webサイト"
@@ -90,6 +92,21 @@ github:
         url: /github/merge-and-pull-request/
       - title: "もっとGitHubを学ぶ"
         url: /github/github-learning-sites/
+
+jekyll:
+  - title: "Jekyll"
+    url: /jekyll/
+    children:
+      - title: "Jekyllの概要"
+        url: /jekyll/about-jekyll/
+      - title: "Jekyllの実行環境構築"
+        url: /jekyll/create-jekyll-environment/
+      - title: "ウェブサイトの作成"
+        url: /jekyll/create-website/
+      - title: "ウェブサイトの公開"
+        url: /jekyll/publish-website/
+      - title: "テーマのカスタマイズ"
+        url: /jekyll/customize-website/
 
 make3d:
   - title: "Kossel Mini EB<br/>組み立てマニュアル"
