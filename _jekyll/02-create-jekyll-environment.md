@@ -7,7 +7,7 @@ toc: true
 Jekyllを利用するには以下のアプリが必要となります。
 - Ruby
   - バージョンは2.5.0以上（GitHub Pagesを利用して公開する場合は、指定のバージョンを使う[^1]）。特になければ最新版をインストールする。
-  - Windowsの場合は、RubyInstaller for Windowsのwith Devkitをインストールする。
+  - Windowsの場合は、RubyInstaller for WindowsのWITH DEVKITをインストールする。
 - テキストエディタ
   - 普段からプログラミングなどで利用しているテキストエディタでよい。
   - 特になければVisual Studio Code（無料）を推奨。
@@ -19,7 +19,8 @@ Jekyllを利用するには以下のアプリが必要となります。
 ```bash
 gem install jekyll
 ```
-または
+上記コマンドでは、Jekyllの最新バージョンがインストールされます。  
+特定のバージョンをインストールする場合[^1]は、以下のコマンドを実行します。
 ```bash
 gem install jekyll -v "特定のバージョン"
 ```
