@@ -84,7 +84,7 @@ jekyll serve
 ### _config.yml
 サイトの設定ファイルです。デフォルトでは、テーマ**minima**が設定されています[^1]。**title**など、自身のサイトに合わせて書き換えます（HTMLのheader情報に影響します）。
 
-[^1]: minimaテーマ:（[https://github.com/jekyll/minima](https://github.com/jekyll/minima){:target="_blank"}）
+[^1]: minimaテーマ: [https://github.com/jekyll/minima](https://github.com/jekyll/minima){:target="_blank"}
 
 <figure>
   <img src="{{ '/assets/images/jekyll/03/03-10.png' | relative_url }}" alt="03-10">
@@ -120,3 +120,25 @@ Aboutページのファイルです。
 Jekyllで作成したサイトを公開する場合は、この**_site**フォルダの中身すべてをウェブサーバーに置きます。
 
 ※ GitHub Pagesを使ってサイトを公開する場合は、GitHubのリポジトリを更新するだけで公開されます。
+
+## テーマ
+Jekyllのデフォルトテーマは**minima**です。他にも数多くのテーマが公開されています。
+
+・jekyll-theme  
+[https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme){:target="_blank"}  
+※ GitHubの検索による一覧
+
+・Jamstack Themes  
+[https://jamstackthemes.dev/ssg/jekyll/](https://jamstackthemes.dev/ssg/jekyll/){:target="_blank"}
+
+・Jekyll Themes  
+[http://jekyllthemes.org/](http://jekyllthemes.org/){:target="_blank"}  
+注: httpsではなくhttp
+
+・Jekyll Themes  
+[https://jekyllthemes.io/](https://jekyllthemes.io/){:target="_blank"}  
+
+・Jekyll Themes  
+[https://jekyll-themes.com/](https://jekyll-themes.com/){:target="_blank"}  
+
+テーマを利用する際は、それぞれのテーマの利用方法や利用制限を確認してください。
