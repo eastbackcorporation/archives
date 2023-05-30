@@ -4,9 +4,9 @@ permalink: /jekyll/publish-website/
 toc: true
 ---
 ## サイトの公開方法
-[ウェブサイトの作成 - _site](../create-website/#_site)でも書いたように、基本的には、**_site**フォルダの中身すべてをウェブサーバーに置くことで、ウェブサイトを公開することができます。その場合、ウェブサーバーのプロバイダーと契約したり、ファイルの転送手段を確保したり、多くの場合、利用料金が発生します。
+[ウェブサイトの作成 - _site](../create-website/#_site)でも書いたように、基本的には、**_site**フォルダの中身すべてをウェブサーバーに置くことで、ウェブサイトを公開することができます。その場合、ウェブサーバーのプロバイダーと契約したり、ファイルの転送手段を確保したり、多くの場合は利用料金が発生します。
 
-ここでは、無料で利用できるGitHub Pagesを使ったウェブサイトの公開を説明します。
+ここでは、無料で利用できるGitHub Pagesを使ったウェブサイトの公開方法を説明します。
 
 ## GitHub Pagesとは
 [GitHub Pagesについて](https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages){:target="_blank"}
