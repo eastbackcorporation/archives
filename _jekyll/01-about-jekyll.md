@@ -9,13 +9,18 @@ Jekyllは、Ruby製の静的サイトジェネレーターです。ウェブサ�
 
 Jekyllでは、Markdownなどで書いたファイルを追加することで、コンテンツ（記事）を追加することができます。つまり、デザインを決めてしまえば、最小限の労力でウェブサイトを更新できます。特にブログサイトの運用に向いています。
 
-Jekyllは、いちからウェブサイトをデザインすることもできますが、有料/無料のテーマ（デザイン）が数多く存在するので、手軽に始めたい場合は、まず無料のテーマを探して利用することができます。また、プログラミング言語の**Ruby**やテンプレート言語の**Liquid**を使って、カスタマイズすることも可能です。
+Jekyllは、いちからウェブサイトをデザインすることもできますが、有料/無料のテーマ（デザイン）が数多く存在するので、手軽に始めたい場合は、まず無料のテーマを探して利用することができます。また、プログラミング言語の**Ruby**やテンプレート言語の**Liquid**[^1]を使って、カスタマイズすることも可能です。
 
 Jekyllは、WordPressなどのCMS（コンテンツ・マネージメント・システム）とは異なり、サーバーやデータベースを必要としません。自分のパソコンに環境を構築して使用します。
 
 ## リファレンス
-Jekyll公式ウェブサイト(英語)
+・Jekyll公式ウェブサイト(英語)  
 [https://jekyllrb.com/](https://jekyllrb.com/){:target="_blank"}
 
-Jekyll日本語ウェブサイト
+・Jekyll日本語ウェブサイト  
 [https://jekyllrb-ja.github.io/](https://jekyllrb-ja.github.io/){:target="_blank"}
+
+・Liquid  
+[https://shopify.github.io/liquid/](https://shopify.github.io/liquid/){:target="_blank"}
+
+[^1]: Shopifyが開発したテンプレート言語: [https://github.com/Shopify/liquid](https://github.com/Shopify/liquid){:target="_blank"}
