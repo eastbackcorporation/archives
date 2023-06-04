@@ -26,6 +26,12 @@ GitHub Pagesで使用するリポジトリ名およびサイトURLは、ルー�
 
 [^3]: [カスタムドメインとGitHub Pagesについて](https://docs.github.com/ja/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages){:target="_blank"}
 
+## JekyllとGitHub Pages
+GitHubには、**Jekyllサイト**からHTMLファイルを生成（ビルド）する機能が組み込まれています。  
+通常、リポジトリにHTMLファイルを置くことで、ウェブサイトとして公開されますが、**Jekyllサイト**を置くと、バックグラウンドで自動的にHTMLファイルをビルドします。ビルドしたHTMLファイルをリポジトリに登録することなく、ウェブサイトとして公開されます。
+
+※ ビルドしたHTMLファイルを、リポジトリの特定のフォルダまたはブランチに出力させることも可能です。
+
 ## リポジトリの作成
 最初に、GitHub Pages用のリポジトリを作成します。  
 リポジトリ名は、`<user>.github.io`（`<user>`はGitHubユーザー名）に設定します。公開（public）に設定して、リポジトリを作成します。
