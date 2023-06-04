@@ -24,6 +24,6 @@ Ruby製の静的サイトジェネレーター**Jekyll**について説明しま
   <dd>Jekyllを使って、ウェブサイトを作成します。</dd>
   <dt><a href="/archives/jekyll/publish-website/">ウェブサイトの公開</a></dt>
   <dd>作成したウェブサイトをGitHub Pagesに公開します。</dd>
-  <dt><a href="/archives/jekyll/customize-website/">テーマのカスタマイズ</a></dt>
+  <dt><a href="/archives/jekyll/customize-website/">ウェブサイトのカスタマイズ</a></dt>
   <dd>テーマをカスタマイズします。</dd>
 </dl>
