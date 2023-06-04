@@ -1,7 +1,7 @@
 ---
-title: "テーマのカスタマイズ"
+title: "ウェブサイトのカスタマイズ"
 permalink: /jekyll/customize-website/
 toc: true
 ---
-## テーマのカスタマイズ
+## ウェブサイトのカスタマイズ
 作成中...

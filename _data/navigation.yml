@@ -105,7 +105,7 @@ jekyll:
         url: /jekyll/create-website/
       - title: "ウェブサイトの公開"
         url: /jekyll/publish-website/
-      - title: "テーマのカスタマイズ"
+      - title: "ウェブサイトのカスタマイズ"
         url: /jekyll/customize-website/
 
 make3d:
