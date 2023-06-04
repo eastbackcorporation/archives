@@ -50,7 +50,7 @@ git clone https://github.com/<user>/<user>.github.io.git
 以下のコマンドを実行します。
 
 ```bash
-jekyll new  --skip-bundle <user>.github.io.git
+jekyll new  --skip-bundle <user>.github.io
 ```
 
 `<user>.github.io.git`フォルダの中に**Jekyllサイト**が作成されます。
@@ -79,7 +79,7 @@ jekyll new  --skip-bundle <user>.github.io.git
 次に、以下のコマンドを実行します。
 
 ```bash
-cd <user>.github.io.git
+cd <user>.github.io
 bundle install
 bundle exec jekyll serve
 ```
