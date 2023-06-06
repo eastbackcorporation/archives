@@ -32,6 +32,8 @@ jekyll new myblog
 ```bash
 cd myblog
 jekyll serve
+または
+bundle exec jekyll serve
 ```
 
 <figure>
@@ -68,7 +70,7 @@ jekyll serve
 
 ウェブサイトの確認が終わったら、VSCodeのターミナルで**Ctrl + c**（コントロールキーを押しながらCキーを押す）を押して、ウェブサーバーを終了させます。
 
-※ Windowsの場合は「バッチジョブを終了しますか(Y/N)」と表示されますので、再び**Ctrl + c**か**Yの後Enter**で終了させます。
+※ Windowsの場合は「バッチジョブを終了しますか(Y/N)」と表示されますので、再び**Ctrl + c**か**Yの後Enter**の押下で終了させます。
 
 <figure>
   <img src="{{ '/assets/images/jekyll/03/03-8.png' | relative_url }}" alt="03-8">
@@ -82,7 +84,7 @@ jekyll serve
 </figure>
 
 ### _config.yml
-サイトの設定ファイルです。デフォルトでは、テーマ**minima**が設定されています[^1]。**title**など、自身のサイトに合わせて書き換えます（HTMLのheader情報に影響します）。
+サイトの設定ファイルです。デフォルトでは、テーマ**minima**が設定されています[^1]。**title**など、自身のサイトに合わせて書き換えます（HTMLのメタデータ（headタグ）に影響します）。
 
 [^1]: minimaテーマ: [https://github.com/jekyll/minima](https://github.com/jekyll/minima){:target="_blank"}
 
@@ -93,7 +95,8 @@ jekyll serve
 ### index.md
 トップページ（ランディングページ）のファイルです。  
 拡張子が**md**なので、Markdown記法で書かれています。  
-1行目の"\-\-\-"と6行目の"\-\-\-"の間は、設定として使用されます（この部分をFront Matterと呼びます）。デフォルトでは、テーマ**minima**で設定されている**home**レイアウトが表示される記述になっています（YAML形式で記述します）。自身のサイト用に書き換えて使用します。
+1行目の"\-\-\-"と6行目の"\-\-\-"の間は、設定として使用されます（この部分をフロントマター（Front Matter）と呼びます）。  
+デフォルトでは、テーマ**minima**で設定されている**home**レイアウトが表示される記述になっています（YAML形式で記述します）。自身のサイト用に書き換えて使用します。
 
 <figure>
   <img src="{{ '/assets/images/jekyll/03/03-11.png' | relative_url }}" alt="03-11">
@@ -101,7 +104,7 @@ jekyll serve
 
 ### about.md
 Aboutページのファイルです。  
-このようにファイルを配置することで、ページを増やすことができます。
+フロントマターに**permalink**にパスを設定します。同様なファイルを作成することで、ページを増やすことができます。
 
 <figure>
   <img src="{{ '/assets/images/jekyll/03/03-12.png' | relative_url }}" alt="03-12">
@@ -117,7 +120,8 @@ Aboutページのファイルです。
 
 ### _site
 ウェブサイトの元となる、HTML、CSS、Javascriptファイルや画像、動画ファイルが生成されるフォルダです。  
-`jekyll serve`が実行されている場合は、逐次更新されます。手動で生成する場合は、`jekyll build`を実行します。  
+`jekyll serve`が実行されている場合は、逐次更新されます。手動で生成する場合は、`jekyll build`を実行します。
+
 Jekyllで作成したサイトを公開する場合は、この**_site**フォルダの中身すべてをウェブサーバーに置きます。
 
 ※ GitHub Pagesを使ってサイトを公開する場合は、GitHubのリポジトリを更新するだけで公開されます。

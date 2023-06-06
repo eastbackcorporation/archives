@@ -4,7 +4,7 @@ permalink: /jekyll/publish-website/
 toc: true
 ---
 ## サイトの公開方法
-[[ウェブサイトの作成]-[_site]](../create-website/#_site)でも書いたように、基本的には、**_site**フォルダの中身すべてをウェブサーバーに置くことで、ウェブサイトを公開することができます。
+[ウェブサイトの作成#_site](../create-website/#_site)でも書いたように、基本的には、**_site**フォルダの中身すべてをウェブサーバーに置くことで、ウェブサイトを公開することができます。
 
 ウェブサーバーを提供するサービスに登録したり、プロバイダーと契約することで利用することができますが、多くの場合は、利用料金が発生します。  
 ここでは、無料で利用できるGitHub Pagesを使ったウェブサイトの公開方法を説明します。
@@ -38,6 +38,14 @@ GitHubには、**Jekyllサイト**からHTMLファイルを生成（ビルド）
 
 [サイト用にリポジトリを作成する](https://docs.github.com/ja/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-a-repository-for-your-site){:target="_blank"}
 
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-1.png' | relative_url }}" alt="04-1">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-2.png' | relative_url }}" alt="04-2">
+</figure>
+
 ## ローカルリポジトリの作成
 ブラウザで作成したGitHubリポジトリのページを表示します。
 
@@ -52,14 +60,24 @@ git clone https://github.com/<user>/<user>.github.io.git
 
 `<user>.github.io.git`フォルダが作成されます。  
 
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-3.png' | relative_url }}" alt="04-3">
+</figure>
+
 ### Jekyllのデフォルトテーマ(minima)を使用する場合
 以下のコマンドを実行します。
 
 ```bash
 jekyll new  --skip-bundle <user>.github.io
+エラーが発生した場合
+jekyll new  --force --skip-bundle <user>.github.io
 ```
 
 `<user>.github.io.git`フォルダの中に**Jekyllサイト**が作成されます。
+
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-4.png' | relative_url }}" alt="04-4">
+</figure>
 
 以下の「サイトを作成する」の&#10108;から&#10111;まで行います。
 
@@ -78,6 +96,7 @@ jekyll new  --skip-bundle <user>.github.io
 
 展開した後、中のすべてのファイルを`<user>.github.io.git`フォルダにコピーまたは移動します。
 
+※ 上書きダイアログが表示されたら、上書きしてください。  
 ※ Macの場合、Gemfileの最後の部分の「for Windows」と「for Mac」のコメントを入れ替えてください。
 
 ## 動作確認
@@ -95,11 +114,14 @@ bundle exec jekyll serve
 
 [^5]: eventmachineエラー対処法: [https://mebee.info/2020/07/21/post-14764/](https://mebee.info/2020/07/21/post-14764/){:target="_blank"}
 
-ウェブサーバーが起動したら、以下のURLをブラウザで表示させます。
+ウェブサーバーが起動したら、以下のURLをクリックして、ブラウザで表示させます。
 
 [http://localhost:4000](http://localhost:4000){:target="_blank"}
+ 
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-5.png' | relative_url }}" alt="04-5">
+</figure>
 
-サイトが表示されます。  
 ウェブサイトの確認が終わったら、VSCodeのターミナルで**Ctrl + c**（コントロールキーを押しながらCキーを押す）を押して、ウェブサーバーを終了させます。
 
 ## リモートリポジトリの更新
@@ -116,17 +138,33 @@ git push origin main
 ※ コミット時に「git config」に関するエラーが表示された場合は、エラー内容に従って設定してください。  
 ※ プッシュ時に認証エラーが表示された場合は、適切に認証設定をしてください。  
 
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-6.png' | relative_url }}" alt="04-6">
+</figure>
+
 ブラウザのGitHubリポジトリのページを表示させて、ローカルの内容が反映されたかどうか確認します。
 
-# GitHub Pagesの設定
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-7.png' | relative_url }}" alt="04-7">
+</figure>
+
+## GitHub Pagesの設定
 ブラウザのGitHubリポジトリのページの「Settings」をクリックします。  
 左側のサイドメニューから「Pages」をクリックします。  
 以下の「ブランチからの公開」の&#10106;から&#10108;まで行います。
 
 [ブランチからの公開](https://docs.github.com/ja/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch){:target="_blank"}
 
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-8.png' | relative_url }}" alt="04-8">
+</figure>
+
 以下の「サイトを作成する」の&#9459;を行います。
 
 [サイトを作成する](https://docs.github.com/ja/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site){:target="_blank"}
 
 ウェブサイトが公開されていることを確認します。
+
+<figure>
+  <img src="{{ '/assets/images/jekyll/04/04-9.png' | relative_url }}" alt="04-9">
+</figure>
