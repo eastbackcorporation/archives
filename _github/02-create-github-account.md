@@ -5,10 +5,101 @@ toc: true
 ---
 ## GitHubアカウントの作成
 
-GitHubのウェブサイトから、「Sign up」をクリックしてアカウントを作成してください。
+GitHubのウェブサイト（[https://github.com](https://github.com){:target="_blank"}）から、「Sign up」をクリックしてアカウントを作成してください。
 
 <figure>
-  <img src="{{ '/assets/images/github/02/github-website.png' | relative_url }}" alt="GitHub" class="img_border">
+  <img src="{{ '/assets/images/github/02/github-website1.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+E-mailアドレスを入力して、Continueボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website2.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+次に新しいパスワードを入力して、Continueボタンをクリックします。  
+パスワードは15文字以上、または8文字以上で数字と半角小文字を含まなければなりません。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website3.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+正しく入力できたら、下側に緑の線が表示されます。Continueボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website4.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+ユーザー名を入力します。世界中でユニーク（唯一）のものでなければなりません。Continueボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website5.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+メール案内を受け取るかどうかの設定です。不要であれば「n」を入力して、Continueボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website6.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+「アカウントの保護」の下の「検証する」ボタンをクリックします。（ロボットではなく）人間が操作をしている事を検証する画面が表示されます。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website7.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+画面の指示に従って操作を行います。終わったら送信ボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website8.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+何回か同様の質問が表示される場合があります。問題なければ緑色のチェックマークが表示されます。「Create Account」ボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website9.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+登録したメールアドレスに、コードが記載されたメールが送信されます。そのコードを入力します。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website10.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+正しく入力すると、「Welcome to GitHub」ページが表示されます。右側に、チームメンバーの数と、学生か先生かそれ以外かの質問が表示されますので、該当するラジオボタンをクリックして、Continueボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website11.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+右側に興味のある分野の一覧が表示されます。下までスクロールします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website12.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+Continueボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website13.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+プランが表示されます。下までスクロールします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website14.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+「Continue for Free」ボタンをクリックします。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website15.png' | relative_url }}" alt="GitHub" class="">
+</figure>
+
+これでアカウントが作成されました。ダッシュボードが表示された状態になります。
+
+<figure>
+  <img src="{{ '/assets/images/github/02/github-website16.png' | relative_url }}" alt="GitHub" class="">
 </figure>
 
 ## Gitのインストール
