@@ -14,11 +14,13 @@ toc: true
 
 数学の関数を説明すると、
 
-<img src="https://render.githubusercontent.com/render/math?math=%5CLarge+f%28x%2Cy%29+%3D+x%5E2+%2B+y%5E2">
+<figure>
+  <img src="{{ '/assets/images/ruby/07/function.png' | relative_url }}" alt="Function">
+</figure>
 
 という**関数f**が定義されているとするとします。
 
-この**関数f**に対し、**x=2**、**y=3**とすると、**関数f**は**13**を返します。
+この**関数f**に対し、**x=2**、**y=3**とすると、**関数f**は**12**を返します。
 
 Rubyのメソッドも同様に、（引数として）渡したオブジェクト（値など）を使って、あらかじめ定義された処理を行い、結果としてオブジェクト（値など）を返したり、オブジェクトに影響を与えたりします。
 
