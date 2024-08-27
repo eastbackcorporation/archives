@@ -319,7 +319,7 @@ Rubyには、**組み込みライブラリ**と**標準添付ライブラリ**�
 クラス定義の書き方はいろいろあり、また複雑ですが、基本的には以下のようになります。
 
 ```ruby
-def クラス名
+class クラス名
   def initialize(引数1, 引数2, ・・・, 引数n)
     変数の初期化など
   end
@@ -362,7 +362,7 @@ end
 # 説明：ランダム生成した整数を予測して当てるゲーム
 
 # クラス定義
-Class NumberGuessingGame
+class NumberGuessingGame
   # newメソッド実行時に呼ばれるメソッド
   def initialize()
     @seikai = rand(1..100)
